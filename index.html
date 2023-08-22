@@ -1,32 +1,1505 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
-	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
-    <link rel="stylesheet" href="css/base.css">
-</head>
-<body>
-
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kemeger-Mektebi</title>
+    <meta
+      name="description"
+      content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки"
+    />
+    <link rel="stylesheet" href="/css/base.css" />
+    <link rel="stylesheet" href="/public/styles.css" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicon/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicon/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicon/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/favicon/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/favicon/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/favicon/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-icon-180x180.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/assets/favicon/android-icon-192x192.png"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="/assets/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/assets/favicon/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body class="snap-mandatory snap-y">
     <!-- Начало: Данный блок удалять нельзя -->
     <div class="maketforfigma">
-        <a href="https://t.me/s/FigmaToHTML" target="_blank">
-            <img src="img/logo.png">
-        </a>
-        <div>
-            <p>
-                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
-            </p>
-            <p>
-                При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a> пользователь получил оплату за верстку этого макета.
-            </p>
-        </div>
+      <a href="https://t.me/s/FigmaToHTML" target="_blank">
+        <img src="img/logo.png" />
+      </a>
+      <div>
+        <p>
+          Данная верстка, была реализована пользователем в рамках обучающего телеграм канал
+          <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
+        </p>
+        <p>
+          При помощи
+          <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a>
+          пользователь получил оплату за верстку этого макета.
+        </p>
+      </div>
     </div>
     <!-- Конец -->
-
-    <div class="main">
-        В данном блоке размещается верстка
+    <div class="main bg-slate-300" id="main">
+      <!-- CONTAINER -->
+      <!-- BG-KID -->
+      <div
+        class="container h-[858px] mx-auto mb-32 px-[120px] bg-[url('../assets/images/img1-hero.png'),_url('../assets/images/bg-3-1-hero.png'),_url('../assets/images/bg-6-3-hero.svg')] 2xl:bg-[position:_right,_950px_250px,_770px_610px] xl:bg-[position:_750px,_780px_250px,_610px_610px] bg-[length:_contain,_auto,_auto] bg-no-repeat"
+      >
+        <!-- NAV -->
+        <section
+          class="px-2 pb-2 fixed top-[0px] 2xl:left-[318px] xl:left-[150px] 2xl:right-[318px] xl:right-[150px] bg-white opacity-80 rounded-sm shadow-xl flex justify-between z-10"
+        >
+          <div class="link-on-hover">
+            <a href="#"
+              ><img src="/assets/images/logo.svg" alt="logo img" class="w-[102px] h-[88px]"
+            /></a>
+          </div>
+          <div class="flex justify-between w-4/5">
+            <ul class="text-16-500 nowrrap flex items-center gap-10">
+              <li class="link-on-hover shrink-0"><a href="#about">О нас</a></li>
+              <li class="link-on-hover"><a href="#catalogs">Каталог</a></li>
+              <li class="link-on-hover"><a href="#sertificates">Сертификаты</a></li>
+              <li class="link-on-hover"><a href="#reviews">Отзывы</a></li>
+              <li class="link-on-hover"><a href="#cotacts">Контакты</a></li>
+              <li class="link-on-hover">
+                <a href="#main">
+                  <img src="/assets/icons/back-nav.svg" alt="back icon" class="w-4 h-5" />
+                </a>
+              </li>
+            </ul>
+            <!-- Modal toggle -->
+            <button
+              data-modal-target="authentication-modal"
+              data-modal-toggle="authentication-modal"
+              class="flex gap-2 items-center"
+              type="button"
+            >
+              <p class="link-on-hover">
+                <img src="/assets/icons/phone-nav.svg" alt="phone icon" class="w-10 h-10" />
+              </p>
+              <p class="shrink-0 text-18-600 link-on-hover">8 (771) 145-98-26</p>
+            </button>
+          </div>
+        </section>
+        <!-- HERO -->
+        <!-- BG-W -->
+        <section
+          class="pt-20 mt-[150px] flex flex-col justify-center bg-[url('../assets/images/bg-1-1-hero.png')] bg-no-repeat bg-[position:25%_0%]"
+        >
+          <div
+            class="w-3/4 bg-[url('../assets/images/bg-2-7-hero.png')] bg-no-repeat bg-[position:15%_0%]"
+          >
+            <p class="text-48-600 text-blue-light/[.06] uppercase -ml-8 -mb-6">KEMENGER MEKTEBI</p>
+            <p class="text-48-600 mb-11">
+              <span class="text-blue-light uppercase">KEMENGER MEKTEBI</span> - центр
+              интеллектуального развития
+            </p>
+            <p class="w-2/3 text-24-400 mb-11">
+              Обучение происходит на казахском и русском языках. При записи на два или более курсов
+              предусмотрена скидка. Запишитесь на бесплатный пробный урок.
+            </p>
+            <p
+              class="pb-32 bg-[url('../assets/images/bg-4-1-hero.png'),_url('../assets/images/bg-5-1-hero.png')] bg-no-repeat bg-[position:_80px_130px,_center_60px]"
+            >
+              <button class="w-60 h-16 text-20-500 rounded-full bg-yellow shadow-2xl shadow-yellow">
+                Оставить заявку
+              </button>
+            </p>
+          </div>
+        </section>
+      </div>
+      <!-- CONTAINER -->
+      <div class="container mx-auto px-[88px]">
+        <!-- ABOUT -->
+        <section id="about" class="scroll-mt-24 snap-start">
+          <div class="flex justify-between items-center mb-28">
+            <p
+              class="w-1/2 h-72 text-24-400 pl-14 pr-10 pt-14 bg-[url('../assets/images/bg-1-about.svg'),_url('../assets/images/bg-2-about.svg')] bg-[position:_left_top,_right_bottom] bg-[length:_auto,_560px] bg-no-repeat"
+            >
+              В нашем центре работают профессиональные педагоги любящие детей и преданные своему
+              делу. Мы помогаем детям совершенствовать свои интеллекуальные способности чтобы они
+              могли познавать мир и делать его более красивым и добрым.
+            </p>
+            <p
+              class="pr-8 pb-8 bg-[url('../assets/images/bg-5-about.svg')] bg-no-repeat bg-right-bottom bg-auto§"
+            >
+              <img src="./assets/images/img-1-about.png" alt="image1" class="w-[488px] h-[343px]" />
+            </p>
+          </div>
+          <div class="flex justify-between items-center mb-28">
+            <p
+              class="pl-8 pb-8 bg-[url('../assets/images/bg-5-about.svg')] bg-no-repeat bg-left-bottom bg-auto"
+            >
+              <img src="./assets/images/img-2-about.png" alt="image2" class="w-[488px] h-[343px]" />
+            </p>
+            <p
+              class="w-1/2 h-64 text-24-400 pl-14 pr-10 pt-14 bg-[url('../assets/images/bg-4-about.svg'),_url('../assets/images/bg-3-about.svg')] bg-[position:_left_top,_right_bottom] bg-[length:_auto,_560px] bg-no-repeat"
+            >
+              Наши ученики показывают результат уже с первого месяца работы, мы поддерживаем в нашем
+              центре теплую и дружескую атмосферу Побывав у нас детям обязательно захочется
+              вернуться сюда снова Развивайтесь вместе с нами
+            </p>
+          </div>
+        </section>
+      </div>
+      <!-- CONTAINER -->
+      <div class="container mx-auto px-[222px]">
+        <!-- DIRECTIONS -->
+        <section
+          class="text-24-400 mb-28 bg-[url('../assets/images/bg-1-directions.png')] bg-[position:_50%_30%] bg-auto bg-no-repeat"
+        >
+          <!-- 1 -->
+          <div class="flex justify-around items-center mb-6">
+            <ul class="flex flex-col items-center gap-1">
+              <li>
+                <img
+                  src="./assets/icons/icon-1-directions.svg"
+                  alt="icon1"
+                  class="w-[120px] h-[120px]"
+                />
+              </li>
+              <li class="w-36 text-center">Ментальная арифметика</li>
+            </ul>
+            <ul class="flex flex-col items-center gap-1">
+              <li>
+                <img
+                  src="./assets/icons/icon-2-directions.svg"
+                  alt="icon2"
+                  class="w-[120px] h-[120px]"
+                />
+              </li>
+              <li class="text-center">Каллиграфия</li>
+            </ul>
+          </div>
+          <!-- 2 -->
+          <div class="flex justify-between items-center mb-6">
+            <ul class="flex flex-col items-center gap-1">
+              <li>
+                <img
+                  src="./assets/icons/icon-3-directions.svg"
+                  alt="icon3"
+                  class="w-[120px] h-[120px]"
+                />
+              </li>
+              <li class="text-center">Скорочтение</li>
+            </ul>
+            <ul class="flex flex-col items-center gap-1">
+              <li>
+                <img
+                  src="./assets/icons/icon-4-directions.svg"
+                  alt="icon4"
+                  class="w-[120px] h-[120px]"
+                />
+              </li>
+              <li class="w-36 text-center">Английский язык</li>
+            </ul>
+          </div>
+          <!-- 3 -->
+          <div class="flex justify-around items-center mb-6">
+            <ul class="flex flex-col items-center gap-1">
+              <li>
+                <img
+                  src="./assets/icons/icon-5-directions.svg"
+                  alt="icon1"
+                  class="w-[120px] h-[120px]"
+                />
+              </li>
+              <li class="w-36 text-center">Подготовка к школе</li>
+            </ul>
+            <p class="w-[470px] text-center">
+              Мы развиваем детей с 5 до 16 лет по следующим направлениям
+            </p>
+            <ul class="flex flex-col items-center gap-1">
+              <li>
+                <img
+                  src="./assets/icons/icon-6-directions.svg"
+                  alt="icon2"
+                  class="w-[120px] h-[120px]"
+                />
+              </li>
+              <li class="w-20 text-center">Супер память</li>
+            </ul>
+          </div>
+          <!-- 4 -->
+          <div class="flex justify-center items-center">
+            <ul class="flex flex-col items-center gap-1">
+              <li>
+                <img
+                  src="./assets/icons/icon-7-directions.svg"
+                  alt="icon7"
+                  class="w-[120px] h-[120px]"
+                />
+              </li>
+              <li class="w-40 text-center">Группа продленного дня</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <!-- CONTAINER WITH CAROUSEL-1 FOR CATALOGS -->
+      <section
+        id="catalogs"
+        class="container mx-auto pt-[68px] pl-[100px] pr-[120px] bg-[#F6FAFF] relative bg-[url('../assets/icons/bg-1-catalog.svg'),_url('../assets/icons/bg-2-catalog.svg')] 2xl:bg-[position:_52px_220px,_1045px_106px] xl:bg-[position:_52px_220px,_850px_132px] bg-[length:_auto,_auto] bg-no-repeat"
+      >
+        <h2 class="text-48-600 text-center mb-[68px]">Каталог</h2>
+        <!-- CAROUSEL FOR CATALOGS -->
+        <div class="wrap">
+          <div class="b-carousel js-carousel-1">
+            <button
+              id="b-carousel__btn-prev-1"
+              class="b-carousel__prev js-carousel__prev-1 link-on-hover"
+              disabled
+            >
+              <img src="./assets/icons/icon-1-catalog.svg" alt="left arrow" />
+            </button>
+            <button
+              id="b-carousel__btn-next-1"
+              class="b-carousel__next js-carousel__next-1 link-on-hover"
+            >
+              <img src="./assets/icons/icon-2-catalog.svg" alt="right arrow" />
+            </button>
+            <div class="pl-5 pb-20 b-carousel__wrap 2xl:gap-5 xl:gap-4 js-carousel__wrap-1">
+              <!-- CATALOG-1 -->
+              <table
+                class="b-carousel__item card-shadow text-center text-20-400 bg-white rounded-[30px]"
+              >
+                <tr>
+                  <th class="py-6 rounded-t-[30px] text-20-700 text-white bg-blue-light uppercase">
+                    Подготовка к школе
+                  </th>
+                </tr>
+                <tr>
+                  <td class="pt-14 pb-6 text-48-600">30 000 тг</td>
+                </tr>
+                <tr>
+                  <td class="pb-2">4-6 лет</td>
+                </tr>
+                <tr>
+                  <td class="pb-10">
+                    <p>3 занятия в неделю по 3 ч. 3-1</p>
+                    <p class="text-white">aaa</p>
+                    <p class="text-white">aaa</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="pb-2">Обучение чтению</td>
+                </tr>
+                <tr>
+                  <td class="pb-2">Письмо</td>
+                </tr>
+                <tr>
+                  <td class="pb-2">Математика</td>
+                </tr>
+                <tr>
+                  <td class="pb-2">
+                    <p>Английский язык</p>
+                    <p class="text-white">aaa</p>
+                    <p class="text-white">aaa</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-blue-light pb-14">
+                    <!-- Modal toggle -->
+                    <button
+                      data-modal-target="catalog-1-modal"
+                      data-modal-toggle="catalog-1-modal"
+                      type="button"
+                      class="link-on-hover"
+                    >
+                      Подробнее...
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <button
+                      class="text-24-500 text-white px-14 py-5 rounded-full mb-14 bg-blue-light"
+                    >
+                      Выбрать
+                    </button>
+                  </td>
+                </tr>
+              </table>
+              <!-- CATALOG-2 -->
+              <table
+                class="b-carousel__item card-shadow text-center text-20-400 bg-white rounded-[30px]"
+              >
+                <tr>
+                  <th class="py-6 rounded-t-[30px] text-20-700 text-white bg-violet uppercase">
+                    скорочтение
+                  </th>
+                </tr>
+                <tr>
+                  <td class="pt-14 pb-6 text-48-600">27 000 тг</td>
+                </tr>
+                <tr>
+                  <td class="pb-2">6-15 лет</td>
+                </tr>
+                <tr>
+                  <td class="pb-10">
+                    <p>3 занятия в неделю по 1 ч.</p>
+                    <p class="text-white">aaa</p>
+                    <p class="text-white">aaa</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="pb-2">Увеличение скорости чтения</td>
+                </tr>
+                <tr>
+                  <td class="pb-2">Артикуляция</td>
+                </tr>
+                <tr>
+                  <td class="pb-2">Развитие речи</td>
+                </tr>
+                <tr>
+                  <td class="pb-2">
+                    <p>Развитие внимания</p>
+                    <p class="text-white">aaa</p>
+                    <p class="text-white">aaa</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-blue-light pb-14">
+                    <!-- Modal toggle -->
+                    <button
+                      data-modal-target="catalog-2-modal"
+                      data-modal-toggle="catalog-2-modal"
+                      type="button"
+                      class="link-on-hover"
+                    >
+                      Подробнее...
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <button class="text-24-500 text-white px-14 py-5 rounded-full mb-14 bg-violet">
+                      Выбрать
+                    </button>
+                  </td>
+                </tr>
+              </table>
+              <!-- CATALOG-3 -->
+              <table
+                class="b-carousel__item card-shadow text-center text-20-400 bg-white rounded-[30px]"
+              >
+                <tr>
+                  <th
+                    class="2xl:py-6 xl:py-[11px] rounded-t-[30px] text-20-700 text-white uppercase bg-greenish"
+                  >
+                    ментальная арифметика
+                  </th>
+                </tr>
+                <tr>
+                  <td class="pt-14 pb-6 text-48-600">20 000 тг</td>
+                </tr>
+                <tr>
+                  <td class="pb-2 text-white">aaa</td>
+                </tr>
+                <tr>
+                  <td class="pb-10">
+                    <p>2 занятия в неделю по 3 ч.</p>
+                    <p class="text-white">aaa</p>
+                    <p class="text-white">aaa</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="pb-2">Быстрый счет</td>
+                </tr>
+                <tr>
+                  <td class="pb-2">Развитие высокой концентрации</td>
+                </tr>
+                <tr>
+                  <td class="pb-2">Увеличесние поля зрения</td>
+                </tr>
+                <tr>
+                  <td class="pb-2">
+                    <p>Фотографическая память</p>
+                    <p class="text-white">aaa</p>
+                    <p class="text-white">aaa</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-blue-light pb-14">
+                    <!-- Modal toggle -->
+                    <button
+                      data-modal-target="catalog-3-modal"
+                      data-modal-toggle="catalog-3-modal"
+                      type="button"
+                      class="link-on-hover"
+                    >
+                      Подробнее...
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <button
+                      class="text-24-500 text-white px-14 py-5 rounded-full mb-14 bg-greenish"
+                    >
+                      Выбрать
+                    </button>
+                  </td>
+                </tr>
+              </table>
+              <!-- CATALOG-4 -->
+              <table
+                class="b-carousel__item card-shadow text-center text-20-400 bg-white rounded-[30px]"
+              >
+                <tr>
+                  <th
+                    class="py-6 rounded-t-[30px] text-20-700 text-white uppercase bg-yellow-light"
+                  >
+                    Каллиграфия
+                  </th>
+                </tr>
+                <tr>
+                  <td class="pt-14 pb-6 text-48-600">24 000 тг</td>
+                </tr>
+                <tr>
+                  <td class="pb-2 text-white">aaa</td>
+                </tr>
+                <tr>
+                  <td class="pb-10">
+                    <p class="text-white">aaa</p>
+                    <p>3 занятия в неделю по 1 ч.</p>
+                    <p class="text-white">aaa</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="pb-2">Развитие памяти</td>
+                </tr>
+                <tr>
+                  <td class="pb-2">Восприятие пространства</td>
+                </tr>
+                <tr>
+                  <td class="pb-2">Прокачивание мелкой моторики</td>
+                </tr>
+                <tr>
+                  <td class="pb-2">
+                    <p class="-mb-1">Основы грамотного письма</p>
+                    <p class="text-white">aaa</p>
+                    <p class="text-white">aaa</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-blue-light pb-14">
+                    <!-- Modal toggle -->
+                    <button
+                      data-modal-target="catalog-4-modal"
+                      data-modal-toggle="catalog-4-modal"
+                      type="button"
+                      class="link-on-hover"
+                    >
+                      Подробнее...
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <button
+                      class="text-24-500 text-white px-14 py-5 rounded-full mb-14 bg-yellow-light"
+                    >
+                      Выбрать
+                    </button>
+                  </td>
+                </tr>
+              </table>
+              <!-- CATALOG-5 -->
+              <table
+                class="b-carousel__item card-shadow text-center text-20-400 bg-white rounded-[30px]"
+              >
+                <tr>
+                  <th class="py-6 rounded-t-[30px] text-20-700 text-white uppercase bg-red-light">
+                    Английский язык
+                  </th>
+                </tr>
+                <tr>
+                  <td class="pt-14 pb-6 text-48-600">18 000 тг</td>
+                </tr>
+                <tr>
+                  <td class="pb-2 text-white">aaa</td>
+                </tr>
+                <tr>
+                  <td class="pb-10">
+                    <p class="text-white">aaa</p>
+                    <p>2 занятия в неделю по 1,5 ч.</p>
+                    <p class="text-white">aaa</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="pb-2">Чтение по правилам</td>
+                </tr>
+                <tr>
+                  <td class="pb-2">Знание 500 новых слов</td>
+                </tr>
+                <tr>
+                  <td class="pb-2">Индивидуальный подход</td>
+                </tr>
+                <tr>
+                  <td class="pb-2">
+                    <p class="-mb-1">Самостоятельное выполнение</p>
+                    <p class="-mt-1">домашнего задания</p>
+                    <p class="text-white">aaa</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-blue-light pb-14">
+                    <!-- Modal toggle -->
+                    <button
+                      data-modal-target="catalog-5-modal"
+                      data-modal-toggle="catalog-5-modal"
+                      type="button"
+                      class="link-on-hover"
+                    >
+                      Подробнее...
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <button
+                      class="text-24-500 text-white px-14 py-5 rounded-full mb-14 bg-red-light"
+                    >
+                      Выбрать
+                    </button>
+                  </td>
+                </tr>
+              </table>
+              <!-- CATALOG-6 -->
+              <table
+                class="b-carousel__item card-shadow text-center text-20-400 bg-white rounded-[30px]"
+              >
+                <tr>
+                  <th
+                    class="2xl:py-6 xl:py-[11px] rounded-t-[30px] text-20-700 text-white uppercase bg-yellow-dark"
+                  >
+                    Группа продленного дня
+                  </th>
+                </tr>
+                <tr>
+                  <td class="pt-14 pb-6 text-48-600">35 000 тг</td>
+                </tr>
+                <tr>
+                  <td class="pb-2 text-white">aaa</td>
+                </tr>
+                <tr>
+                  <td class="pb-10">
+                    <p class="-mb-1">5 раз в неделю</p>
+                    <p class="-mt-1">1 смена с 9:00 по 12:00</p>
+                    <p class="-mt-1">2 смена с 14:00 по 17:00</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="pb-2">Подготовка к СОР,СОЧ</td>
+                </tr>
+                <tr>
+                  <td class="pb-2">Проработка пробелов в знаниях</td>
+                </tr>
+                <tr>
+                  <td class="pb-2">Индивидуальный подход</td>
+                </tr>
+                <tr>
+                  <td class="pb-2">
+                    <p class="-mb-1">Выявление</p>
+                    <p class="-mt-1">сильных сторон</p>
+                    <p class="-mt-1">ребёнка</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-blue-light pb-14">
+                    <!-- Modal toggle -->
+                    <button
+                      data-modal-target="catalog-6-modal"
+                      data-modal-toggle="catalog-6-modal"
+                      type="button"
+                      class="link-on-hover"
+                    >
+                      Подробнее...
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <button
+                      class="text-24-500 text-white px-14 py-5 rounded-full mb-14 bg-yellow-dark"
+                    >
+                      Выбрать
+                    </button>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CONTAINER -->
+      <div class="container mx-auto pt-[68px] bg-white">
+        <!-- SERTIFICATES -->
+        <section
+          id="sertificates"
+          class="pb-32 bg-[url('../assets/images/bg-3-sertificates.svg'),_url('../assets/images/bg-2-sertificates.svg'),url('../assets/images/bg-1-sertificates.svg'),_url('../assets/images/bg-4-sertificates.svg')] 2xl:bg-[position:_40px_345px,_left,_left,_1310px_250px] xl:bg-[position:_40px_345px,_left,_left,_1070px_250px] bg-[length:_auto,_auto,_auto,_auto] bg-no-repeat scroll-mt-20 snap-start"
+        >
+          <h2 class="text-48-600 text-center mb-[68px]">Наши сертификаты</h2>
+          <div class="px-[120px] flex justify-between gap-3">
+            <!-- SERTIFICATE1 -->
+            <p
+              class="w-1/4 h-[211px] bg-[url('../assets/images/img-1-sertificates.png')] bg-cover bg-no-repeat"
+            ></p>
+            <!-- SERTIFICATE2 -->
+            <p
+              class="w-1/4 h-[211px] bg-[url('../assets/images/img-2-sertificates.png')] bg-cover bg-no-repeat"
+            ></p>
+            <!-- SERTIFICATE3 -->
+            <p
+              class="w-1/4 h-[211px] bg-[url('../assets/images/img-3-sertificates.png')] bg-cover bg-no-repeat"
+            ></p>
+            <!-- SERTIFICATE4 -->
+            <p
+              class="w-1/4 h-[211px] bg-[url('../assets/images/img-4-sertificates.png')] bg-cover bg-no-repeat"
+            ></p>
+          </div>
+        </section>
+      </div>
+      <!-- CONTAINER WITH CAROUSEL-2 FOR REVIEWS -->
+      <section
+        id="reviews"
+        class="container mx-auto pt-[68px] pl-[100px] pr-[120px] bg-white relative"
+      >
+        <h2 class="text-48-600 text-center mb-[68px]">Отзывы</h2>
+        <!-- CAROUSEL FOR REVIEWS -->
+        <div class="wrap">
+          <div class="b-carousel js-carousel-2">
+            <button
+              id="b-carousel__btn-prev-2"
+              class="b-carousel__prev js-carousel__prev-2 link-on-hover"
+              disabled
+            >
+              <img src="./assets/icons/icon-1-catalog.svg" alt="left arrow" />
+            </button>
+            <button
+              id="b-carousel__btn-next-2"
+              class="b-carousel__next js-carousel__next-2 link-on-hover"
+            >
+              <img src="./assets/icons/icon-2-catalog.svg" alt="right arrow" />
+            </button>
+            <div class="pl-5 pb-20 b-carousel__wrap 2xl:gap-5 xl:gap-4 js-carousel__wrap-2">
+              <!-- REVIEW-1 -->
+              <div
+                class="b-carousel__item 2xl:pl-9 xl:pl-2 pb-9 2xl:pt-11 xl:pt-8 border-4 rounded-3xl border-blue-light"
+              >
+                <div class="flex items-center gap-1 mb-4">
+                  <p
+                    class="w-20 h-20 rounded-full bg-[url('../assets/images/img-1-reviews.png')] bg-cover bg-center bg-no-repeat"
+                  ></p>
+                  <p class="text-24-600">Malika Fazlieva</p>
+                </div>
+                <p class="2xl:text-20-400 xl:text-18-300">
+                  Маған ұнаған жері білімді жақсы береді. Ұлымның қатынап жүргеніне 1 ай болмады
+                  бірақ нәтиже бар. Мұғалімдеріде өте сыпайы әрі білімді.
+                </p>
+              </div>
+              <!-- REVIEW-2 -->
+              <div
+                class="b-carousel__item place-self-stretch 2xl:pl-9 xl:pl-2 pb-9 2xl:pt-11 xl:pt-8 border-4 rounded-3xl border-blue-light"
+              >
+                <div class="flex items-center gap-1 mb-4">
+                  <p
+                    class="w-20 h-20 rounded-full bg-[url('../assets/images/img-2-reviews.png')] bg-cover bg-center bg-no-repeat"
+                  ></p>
+                  <p class="text-24-600 tracking-tighter">Aigul Lepessova</p>
+                </div>
+                <p class="2xl:text-20-400 xl:text-18-300">
+                  Отлично все нравится! Внучка уже 6 месяц занимается, довольны
+                </p>
+              </div>
+              <!-- REVIEW-3 -->
+              <div
+                class="b-carousel__item 2xl:pl-9 xl:pl-2 pb-9 2xl:pt-11 xl:pt-8 border-4 rounded-3xl border-blue-light"
+              >
+                <div class="flex items-center gap-1 mb-4">
+                  <p
+                    class="w-20 h-20 rounded-full bg-[url('../assets/images/img-3-reviews.png')] bg-cover bg-center bg-no-repeat"
+                  ></p>
+                  <p class="text-24-600">Malika Fazlieva</p>
+                </div>
+                <p class="2xl:text-20-400 xl:text-18-300">
+                  Маған ұнаған жері білімді жақсы береді. Ұлымның қатынап жүргеніне 1 ай болмады
+                  бірақ нәтиже бар. Мұғалімдеріде өте сыпайы әрі білімді.
+                </p>
+              </div>
+              <!-- REVIEW-4 -->
+              <div
+                class="b-carousel__item 2xl:pl-9 xl:pl-2 pb-9 2xl:pt-11 xl:pt-8 border-4 rounded-3xl border-blue-light"
+              >
+                <div class="flex items-center gap-1 mb-4">
+                  <p
+                    class="w-20 h-20 shrink-0 rounded-full bg-[url('../assets/images/img-4-reviews.png')] bg-cover bg-center bg-no-repeat"
+                  ></p>
+                  <p class="text-24-600 tracking-tighter">Анара Баймабетова</p>
+                </div>
+                <p class="2xl:text-20-400 xl:text-18-300">
+                  Искренне рекомендую, детям дают отличные знания и безопасность. Профессионалы
+                  своего дела. Удачи вам и успехов желаю.
+                </p>
+              </div>
+              <!-- REVIEW-5 -->
+              <div
+                class="b-carousel__item 2xl:pl-9 xl:pl-2 pb-9 2xl:pt-11 xl:pt-8 border-4 rounded-3xl border-blue-light"
+              >
+                <div class="flex items-center gap-1 mb-4">
+                  <p
+                    class="w-20 h-20 shrink-0 rounded-full bg-[url('../assets/images/img-5-reviews.png')] bg-cover bg-center bg-no-repeat"
+                  ></p>
+                  <p class="text-24-600 tracking-tighter">Gulzhan Kossantayeva</p>
+                </div>
+                <p class="2xl:text-20-400 xl:text-18-300">
+                  Комфорная обстановака, распологает к учебе, учителя доброжелательные,но
+                  требовательные! То, что надо! Советую 100%.
+                </p>
+              </div>
+              <!-- REVIEW-6 -->
+              <div
+                class="b-carousel__item 2xl:pl-9 xl:pl-2 pb-9 2xl:pt-11 xl:pt-8 border-4 rounded-3xl border-blue-light"
+              >
+                <div class="flex items-center gap-1 mb-4">
+                  <p
+                    class="w-20 h-20 rounded-full bg-[url('../assets/images/img-6-reviews.png')] bg-cover bg-center bg-no-repeat"
+                  ></p>
+                  <p class="text-24-600">Енлик Серик</p>
+                </div>
+                <p class="2xl:text-20-400 xl:text-18-300">
+                  Айжан Талгатовна өз ісінің маманы. Менің қызымның оқу үлгеріміне көп ықпал
+                  тигіздіңіз. Кемеңгер мектебі нағыз кеменгер бала тәлімін береді!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CONTAINER -->
+      <div class="container mx-auto pl-[140px] mb-14 pt-[58px] bg-white">
+        <!-- CONTACTS -->
+        <section
+          id="cotacts"
+          class="flex justify-between bg-[url('../assets/images/img-2-contacts.svg')] bg-[position:_60px_80px] bg-[length:_auto] bg-no-repeat scroll-mt-24 snap-start"
+        >
+          <div class="w-1/2 h-max pt-3 pb-9 pl-10 rounded-3xl self-end text-white bg-blue-light">
+            <p class="mb-5 text-48-600 text-center">Наши контакты</p>
+            <p class="mb-2 text-24-600 text-left">
+              Запишитесь на бесплатный пробный урок по номеру:
+            </p>
+            <p class="mb-5 text-24-400 text-left">8 (771) 145-98-26</p>
+            <p class="mb-2 text-24-600">Адрес:</p>
+            <p class="mb-5 text-24-400">г. Нур-Султан, ул. К. Аманжолова, 28, офис 14</p>
+            <p class="mb-2 text-24-600">График работы:</p>
+            <p class="mb-2 text-24-400">Пн-Пт - 9:00-19:00;</p>
+            <p class="mb-2 text-24-400">Сб - 9:00-17:00;</p>
+            <p class="mb-5 text-24-400">Вс - выходной</p>
+            <p class="mb-2 text-24-600">E-mail:</p>
+            <p class="text-24-400">@kemenger.mektebi</p>
+          </div>
+          <div>
+            <img
+              src="./assets/images/img-1-1-contacts.png"
+              alt="contacts image"
+              class="w-[550px]"
+            />
+          </div>
+          <div></div>
+        </section>
+      </div>
+      <!-- CONTAINER -->
+      <div class="container pl-[259px] pr-[284px] mx-auto mb-[87px] bg-white">
+        <!-- MAP -->
+        <section
+          class="mx-auto bg-[url('../assets/images/img-2-map.svg'),_url('../assets/images/img-1-map.svg'),_url('../assets/images/img-3-map.svg'),_url('../assets/images/img-4-map.svg')] bg-[position:_50px_50px,_30px_38px,_770px_293px,_760px_280px] bg-[length:_auto,_auto,_auto,_auto] bg-no-repeat"
+        >
+          <div class="mx-auto w-[794px] h-[539px]">
+            <img src="./assets/images/img-1-map.png" alt="map image" />
+          </div>
+        </section>
+      </div>
+      <!-- FOOTER -->
+      <div class="container mx-auto 2xl:py-14 xl:py-10 mb-5 text-24-500 text-white bg-dark">
+        <div class="2xl:px-[140px] xl:px-[80px] mx-auto flex justify-between items-center">
+          <!-- IMG1 -->
+          <p class="link-on-hover">
+            <a href="#"><img src="./assets/images/img-1-footer.png" alt="footer image" /></a>
+          </p>
+          <!-- UL -->
+          <ul class="flex justify-between items-center 2xl:gap-10 xl:gap-5">
+            <li class="shrink-0 link-on-hover"><a href="#about">О нас</a></li>
+            <li class="link-on-hover"><a href="#catalogs">Каталог</a></li>
+            <li class="link-on-hover"><a href="#sertificates">Сертификаты</a></li>
+            <li class="link-on-hover"><a href="#reviews">Отзывы</a></li>
+            <li class="link-on-hover"><a href="#cotacts">Контакты</a></li>
+          </ul>
+          <!-- IMG2 -->
+          <p class="link-on-hover">
+            <a href="#"><img src="./assets/images/img-2-footer.png" alt="footer image" /></a>
+          </p>
+        </div>
+      </div>
+      <!-- AUTHENTICATION MODAL -->
+      <div
+        id="authentication-modal"
+        tabindex="-1"
+        aria-hidden="true"
+        class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full"
+      >
+        <div class="relative w-full max-w-md max-h-full">
+          <!-- Modal content -->
+          <div class="relative bg-blue-50 rounded-3xl shadow-md">
+            <button
+              type="button"
+              class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+              data-modal-hide="authentication-modal"
+            >
+              <svg
+                class="w-3 h-3"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 14"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                />
+              </svg>
+              <span class="sr-only">Close modal</span>
+            </button>
+            <div class="px-8 pt-5 pb-8">
+              <h3 class="mx-16 mb-8 text-24-500">
+                Заполните <span class="text-blue-light">форму</span> и мы обязательно свяжемся с
+                Вами.
+              </h3>
+              <form class="bg-blue text-center" action="#">
+                <!-- ВАШЕ ИМЯ -->
+                <div class="mb-4">
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    class="py-5 px-5 bg-white border-0 rounded-2xl shadow-md text-18-300 text-grey block w-full"
+                    placeholder="Ваше имя..."
+                    required
+                  />
+                </div>
+                <!-- ВАШЕ ТЕЛЕФОН -->
+                <div class="mb-4">
+                  <input
+                    type="text"
+                    name="phone"
+                    id="phone"
+                    placeholder="Ваш телефон..."
+                    class="py-5 px-5 bg-white border-0 rounded-2xl shadow-md text-18-300 text-grey block w-full"
+                    required
+                  />
+                </div>
+                <!-- COMMENT -->
+                <div class="mb-8">
+                  <textarea
+                    name="comment"
+                    id="comment"
+                    cols="30"
+                    rows="3"
+                    placeholder="Комментарий..."
+                    class="py-5 px-5 bg-white border-0 rounded-2xl shadow-md text-18-300 text-grey block w-full"
+                  ></textarea>
+                </div>
+                <button
+                  data-modal-target="thank-modal"
+                  data-modal-toggle="thank-modal"
+                  data-modal-hide="authentication-modal"
+                  class="link-on-hover text-20-500 bg-yellow-200 rounded-full shadow-md px-11 py-5 text-center"
+                  type="button"
+                >
+                  Оставить заявку
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- THANK MODAL -->
+      <div
+        id="thank-modal"
+        tabindex="-1"
+        aria-hidden="false"
+        class="fixed top-0 left-0 right-0 z-50 hidden w-full overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full"
+      >
+        <div class="relative w-full max-w-md max-h-full">
+          <!-- Modal content -->
+          <div class="pt-24 pb-28 relative bg-blue-50 rounded-3xl shadow-md">
+            <button
+              type="button"
+              class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+              data-modal-hide="thank-modal"
+            >
+              <svg
+                class="w-3 h-3"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 14"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                />
+              </svg>
+              <span class="sr-only">Close modal</span>
+            </button>
+            <div class="mb-6 flex justify-center">
+              <img
+                src="./assets/icons/icon-1-thank-modal.svg"
+                alt="thank-modal icon"
+                class="w-[120px] h-[120px] object-none object-center"
+              />
+            </div>
+            <div class="mb-10 text-center">
+              <h3 class="text-36-500"><span class="text-blue-light">Спасибо</span> за заявку</h3>
+            </div>
+            <div class="text-center">
+              <h3 class="text-36-500">
+                <p>В ближайшее</p>
+                <p>время мы</p>
+                <p><span class="text-blue-light">свяжемся</span> с Вами</p>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- MODAL FOR CATALOG-1 -->
+      <div
+        id="catalog-1-modal"
+        tabindex="-1"
+        aria-hidden="true"
+        class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full"
+      >
+        <div class="relative w-full max-w-md max-h-full">
+          <!-- Modal content -->
+          <div class="relative bg-blue-50 rounded-3xl shadow-md">
+            <button
+              type="button"
+              class="absolute top-3 right-2.5 text-white bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+              data-modal-hide="catalog-1-modal"
+            >
+              <svg
+                class="w-3 h-3"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 14"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                />
+              </svg>
+              <span class="sr-only">Close modal</span>
+            </button>
+            <table class="w-full card-shadow text-center text-20-400 bg-white rounded-[30px]">
+              <tr>
+                <th class="py-6 rounded-t-[30px] text-20-700 text-white bg-blue-light uppercase">
+                  Подготовка к школе
+                </th>
+              </tr>
+              <tr>
+                <td class="pt-12 pb-6 text-48-600">30 000 тг</td>
+              </tr>
+              <tr>
+                <td class="pb-2">4-6 лет</td>
+              </tr>
+              <tr>
+                <td class="pb-12">3 занятия в неделю по 3 ч. 3-1</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Обучение чтению</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Письмо</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Математика</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Английский язык</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Развитие речи</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Концентрация внимания</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Усвоение изучаемого материала</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Различные техники запоминания</td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="-mb-1">Развитие логико-</p>
+                  <p class="-mt-1">математического</p>
+                  <p class="-mt-1">мышления</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="pt-12">
+                  <button
+                    class="link-on-hover text-24-500 text-white px-14 py-5 rounded-full mb-14 bg-blue-light"
+                  >
+                    Выбрать
+                  </button>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- MODAL FOR CATALOG-2 -->
+      <div
+        id="catalog-2-modal"
+        tabindex="-1"
+        aria-hidden="true"
+        class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full"
+      >
+        <div class="relative w-full max-w-md max-h-full">
+          <!-- Modal content -->
+          <div class="relative bg-blue-50 rounded-3xl shadow-md">
+            <button
+              type="button"
+              class="absolute top-3 right-2.5 text-white bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+              data-modal-hide="catalog-2-modal"
+            >
+              <svg
+                class="w-3 h-3"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 14"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                />
+              </svg>
+              <span class="sr-only">Close modal</span>
+            </button>
+            <table class="w-full card-shadow text-center text-20-400 bg-white rounded-[30px]">
+              <tr>
+                <th class="py-6 rounded-t-[30px] text-20-700 text-white bg-violet uppercase">
+                  скорочтение
+                </th>
+              </tr>
+              <tr>
+                <td class="pt-12 pb-6 text-48-600">27 000 тг</td>
+              </tr>
+              <tr>
+                <td class="pb-2">6-15 лет</td>
+              </tr>
+              <tr>
+                <td class="pb-12">3 занятия в неделю по 1 ч.</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Увеличение скорости чтения</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Артикуляция</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Развитие речи</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Развитие внимания</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Увеличение поля зрения</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Увеличение словарного запаса</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Понимание прочитанного</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Пересказ</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Различные техники понимания</td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="-mb-1">Пробный урок и диагностика</p>
+                  <p class="-mt-1">БЕСПЛАТНО</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="pt-12">
+                  <button class="text-24-500 text-white px-14 py-5 rounded-full mb-14 bg-violet">
+                    Выбрать
+                  </button>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- MODAL FOR CATALOG-3 -->
+      <div
+        id="catalog-3-modal"
+        tabindex="-1"
+        aria-hidden="true"
+        class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full"
+      >
+        <div class="relative w-full max-w-md max-h-full">
+          <!-- Modal content -->
+          <div class="relative bg-blue-50 rounded-3xl shadow-md">
+            <button
+              type="button"
+              class="absolute top-3 right-2.5 text-white bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+              data-modal-hide="catalog-3-modal"
+            >
+              <svg
+                class="w-3 h-3"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 14"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                />
+              </svg>
+              <span class="sr-only">Close modal</span>
+            </button>
+            <table class="w-full card-shadow text-center text-20-400 bg-white rounded-[30px]">
+              <tr>
+                <th class="py-6 rounded-t-[30px] text-20-700 text-white uppercase bg-greenish">
+                  ментальная арифметика
+                </th>
+              </tr>
+              <tr>
+                <td class="pt-12 pb-12 text-48-600">20 000 тг</td>
+              </tr>
+              <tr>
+                <td class="pb-12">2 занятия в неделю по 3 ч.</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Быстрый счет</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Развитие высокой концентрации</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Увеличесние поля зрения</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Фотографическая память</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Пробный урок БЕСПЛАТНО</td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="-mb-1">Обучающая платформа</p>
+                  <p class="-mt-1">в ПОДАРОК</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="pt-12">
+                  <button class="text-24-500 text-white px-14 py-5 rounded-full mb-14 bg-greenish">
+                    Выбрать
+                  </button>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- MODAL FOR CATALOG-4 -->
+      <div
+        id="catalog-4-modal"
+        tabindex="-1"
+        aria-hidden="true"
+        class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full"
+      >
+        <div class="relative w-full max-w-md max-h-full">
+          <!-- Modal content -->
+          <div class="relative bg-blue-50 rounded-3xl shadow-md">
+            <button
+              type="button"
+              class="absolute top-3 right-2.5 text-white bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+              data-modal-hide="catalog-4-modal"
+            >
+              <svg
+                class="w-3 h-3"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 14"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                />
+              </svg>
+              <span class="sr-only">Close modal</span>
+            </button>
+            <table class="w-full card-shadow text-center text-20-400 bg-white rounded-[30px]">
+              <tr>
+                <th class="py-6 rounded-t-[30px] text-20-700 text-white uppercase bg-yellow-light">
+                  Каллиграфия
+                </th>
+              </tr>
+              <tr>
+                <td class="pt-14 pb-12 text-48-600">24 000 тг</td>
+              </tr>
+              <tr>
+                <td class="pb-12">3 занятия в неделю по 1 ч.</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Развитие памяти</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Восприятие пространства</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Прокачивание мелкой моторики</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Основы грамотного письма</td>
+              </tr>
+              <tr>
+                <td class="pb-6">
+                  <p class="-mb-1">Развитие физической</p>
+                  <p class="-mt-1">выносливости и</p>
+                  <p class="-mt-1">усидчивости</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="-mb-1">Умение писать диктанты</p>
+                  <p class="-mt-1">без графических и</p>
+                  <p class="-mt-1">орфографических</p>
+                  <p class="-mt-1">ошибок</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="pt-9">
+                  <button
+                    class="text-24-500 text-white px-14 py-5 rounded-full mb-14 bg-yellow-light"
+                  >
+                    Выбрать
+                  </button>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- MODAL FOR CATALOG-5 -->
+      <div
+        id="catalog-5-modal"
+        tabindex="-1"
+        aria-hidden="true"
+        class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full"
+      >
+        <div class="relative w-full max-w-md max-h-full">
+          <!-- Modal content -->
+          <div class="relative bg-blue-50 rounded-3xl shadow-md">
+            <button
+              type="button"
+              class="absolute top-3 right-2.5 text-white bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+              data-modal-hide="catalog-5-modal"
+            >
+              <svg
+                class="w-3 h-3"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 14"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                />
+              </svg>
+              <span class="sr-only">Close modal</span>
+            </button>
+            <table class="w-full card-shadow text-center text-20-400 bg-white rounded-[30px]">
+              <tr>
+                <th class="py-6 rounded-t-[30px] text-20-700 text-white uppercase bg-red-light">
+                  Английский язык
+                </th>
+              </tr>
+              <tr>
+                <td class="pt-14 pb-6 text-48-600">18 000 тг</td>
+              </tr>
+              <tr>
+                <td class="pb-10">2 занятия в неделю по 1,5 ч.</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Чтение по правилам</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Развитие памяти</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Умение писать диктанты</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Знание 500 новых слов</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Индивидуальный подход</td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="-mb-1">Самостоятельное выполнение</p>
+                  <p class="-mt-1">домашнего задания</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="pt-9">
+                  <button class="text-24-500 text-white px-14 py-5 rounded-full mb-14 bg-red-light">
+                    Выбрать
+                  </button>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- MODAL FOR CATALOG-6 -->
+      <div
+        id="catalog-6-modal"
+        tabindex="-1"
+        aria-hidden="true"
+        class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full"
+      >
+        <div class="relative w-full max-w-md max-h-full">
+          <!-- Modal content -->
+          <div class="relative bg-blue-50 rounded-3xl shadow-md">
+            <button
+              type="button"
+              class="absolute top-3 right-2.5 text-white bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+              data-modal-hide="catalog-6-modal"
+            >
+              <svg
+                class="w-3 h-3"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 14"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                />
+              </svg>
+              <span class="sr-only">Close modal</span>
+            </button>
+            <table class="w-full card-shadow text-center text-20-400 bg-white rounded-[30px]">
+              <tr>
+                <th class="py-6 rounded-t-[30px] text-20-700 text-white uppercase bg-yellow-dark">
+                  Группа продленного дня
+                </th>
+              </tr>
+              <tr>
+                <td class="pt-14 pb-6 text-48-600">35 000 тг</td>
+              </tr>
+              <tr>
+                <td class="pb-10">
+                  <p class="-mb-1">5 раз в неделю</p>
+                  <p class="-mt-1">1 смена с 9:00 по 12:00</p>
+                  <p class="-mt-1">2 смена с 14:00 по 17:00</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="pb-6">Подготовка к СОР,СОЧ</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Проработка пробелов в знаниях</td>
+              </tr>
+              <tr>
+                <td class="pb-6">Индивидуальный подход</td>
+              </tr>
+              <tr>
+                <td class="pb-6">
+                  <p class="-mb-1">Выявление</p>
+                  <p class="-mt-1">сильных сторон</p>
+                  <p class="-mt-1">ребёнка</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="pb-6">
+                  <p class="-mb-1">Профессиональная</p>
+                  <p class="-mt-1">помощь в подготовке</p>
+                  <p class="-mt-1">домашних заданий</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="-mb-1">Дополнительные</p>
+                  <p class="-mt-1">образовательные</p>
+                  <p class="-mt-1">исциплины</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="pt-9">
+                  <button
+                    class="text-24-500 text-white px-14 py-5 rounded-full mb-14 bg-yellow-dark"
+                  >
+                    Выбрать
+                  </button>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
     </div>
-
-</body>
+    <script src="/node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script src="/scripts/reset.js"></script>
+    <script src="/scripts/carousel.js"></script>
+  </body>
 </html>

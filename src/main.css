@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-16-500{
+	@apply text-base font-medium;
+}
+
+.text-18-300{
+	@apply text-lg font-light;
+}
+
+.text-18-600{
+	@apply text-lg font-semibold;
+}
+
+.text-20-400{
+	@apply text-xl font-normal;
+}
+
+.text-20-500{
+	@apply text-xl font-medium;
+}
+
+.text-20-700{
+	@apply text-xl font-bold;
+}
+
+.text-20-600{
+	@apply text-xl font-bold;
+}
+
+.text-24-400{
+	@apply text-2xl font-normal;
+}
+
+.text-24-500{
+	@apply text-2xl font-medium;
+}
+
+.text-24-600{
+	@apply text-2xl font-semibold;
+}
+
+.text-24-700{
+	@apply text-2xl font-bold;
+}
+
+.text-36-500{
+	@apply text-4xl font-medium;
+}
+
+.text-36-500 {
+	@apply text-4xl font-medium;
+}
+
+.text-48-500 {
+	@apply text-5xl font-medium;
+}
+
+.text-48-600 {
+	@apply text-5xl font-semibold
+}
+
+.main {
+	font-family: 'Commissioner', sans-serif;
+	color: #000000;
+}
+
+.btn-shadow {
+	box-shadow: 0px 20px 40px -27px rgba(0, 0, 0, 0.15);
+}
+
+.link-on-hover {
+	@apply hover:scale-105 transition-transform;
+}
+
+/* CONTAINER */
+
+.layout {
+  max-width: 68.75rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* CAURUSEL */
+
+.b-carousel {
+	@apply w-full overflow-x-clip; 
+}
+
+.b-carousel__prev,
+.b-carousel__next {
+	@apply absolute top-1/2 w-6 h-14 translate-y-1/2 cursor-pointer whitespace-nowrap z-10; 
+}
+
+.b-carousel__prev {
+	@apply left-12;
+}
+
+.b-carousel__next {
+	@apply right-12;
+}		
+
+.b-carousel__wrap{
+	@apply flex gap-5 duration-75 will-change-transform;
+}
+
+.b-carousel__item {
+	@apply flex-col grow-0 shrink-0 w-[31.8%] overflow-hidden items-center justify-center;
+}
+
+.card-shadow {
+	box-shadow: 0px 52px 34px -27px rgba(225, 225, 225, 0.15);
+}
+
+table td {
+	padding: 0;
+}
+
+button:disabled{
+	opacity: 0.3;
+}
+
