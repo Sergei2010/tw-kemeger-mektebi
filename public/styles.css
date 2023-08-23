@@ -1591,6 +1591,12 @@ input:checked + .toggle-bg{
   scroll-behavior: smooth;
 }
 
+.truncate{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .rounded-2xl{
   border-radius: 1rem;
 }
@@ -1887,10 +1893,6 @@ input:checked + .toggle-bg{
   background-position: 50% 30%;
 }
 
-.bg-\[position\:_50px_50px\2c _30px_38px\2c _770px_293px\2c _760px_280px\]{
-  background-position: 50px 50px, 30px 38px, 770px 293px, 760px 280px;
-}
-
 .bg-\[position\:_60px_80px\]{
   background-position: 60px 80px;
 }
@@ -1943,6 +1945,11 @@ input:checked + .toggle-bg{
 
 .p-4{
   padding: 1rem;
+}
+
+.px-1{
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 
 .px-11{
@@ -2465,6 +2472,11 @@ input:checked + .toggle-bg{
   box-shadow: 0px 52px 34px -27px rgba(225, 225, 225, 0.15);
 }
 
+table {
+  border-collapse: separate!important;
+  border-spacing: 0;
+}
+
 table td {
   padding: 0;
 }
@@ -2655,6 +2667,10 @@ button:disabled{
     gap: 1.25rem;
   }
 
+  .xl\:bg-\[position\:_180px_50px\2c _165px_37px\2c _950px_310px\2c _940px_299px\]{
+    background-position: 180px 50px, 165px 37px, 950px 310px, 940px 299px;
+  }
+
   .xl\:bg-\[position\:_40px_345px\2c _left\2c _left\2c _1070px_250px\]{
     background-position: 40px 345px, left, left, 1070px 250px;
   }
@@ -2675,6 +2691,11 @@ button:disabled{
   .xl\:py-10{
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
+  }
+
+  .xl\:py-6{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 
   .xl\:py-\[11px\]{
@@ -2706,6 +2727,10 @@ button:disabled{
 
   .\32xl\:gap-5{
     gap: 1.25rem;
+  }
+
+  .\32xl\:bg-\[position\:_270px_51px\2c _253px_38px\2c _1060px_293px\2c _1050px_280px\]{
+    background-position: 270px 51px, 253px 38px, 1060px 293px, 1050px 280px;
   }
 
   .\32xl\:bg-\[position\:_40px_345px\2c _left\2c _left\2c _1310px_250px\]{
