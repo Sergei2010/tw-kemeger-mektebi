@@ -1915,6 +1915,22 @@ input:checked + .toggle-bg{
   background-position: right bottom;
 }
 
+.bg-\[position\:20\%_0\%\]{
+  background-position: 20% 0%;
+}
+
+.bg-\[position\:30\%_0\%\]{
+  background-position: 30% 0%;
+}
+
+.bg-\[position\:25\%_10\%\]{
+  background-position: 25% 10%;
+}
+
+.bg-\[position\:25\%_-10\%\]{
+  background-position: 25% -10%;
+}
+
 .bg-no-repeat{
   background-repeat: no-repeat;
 }
@@ -1975,11 +1991,6 @@ input:checked + .toggle-bg{
   padding-right: 120px;
 }
 
-.px-\[140px\]{
-  padding-left: 140px;
-  padding-right: 140px;
-}
-
 .px-\[222px\]{
   padding-left: 222px;
   padding-right: 222px;
@@ -1988,11 +1999,6 @@ input:checked + .toggle-bg{
 .px-\[88px\]{
   padding-left: 88px;
   padding-right: 88px;
-}
-
-.py-14{
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
 }
 
 .py-2{
@@ -2104,10 +2110,6 @@ input:checked + .toggle-bg{
   padding-right: 284px;
 }
 
-.pt-11{
-  padding-top: 2.75rem;
-}
-
 .pt-12{
   padding-top: 3rem;
 }
@@ -2146,6 +2148,22 @@ input:checked + .toggle-bg{
 
 .pt-\[68px\]{
   padding-top: 68px;
+}
+
+.pt-10{
+  padding-top: 2.5rem;
+}
+
+.pb-40{
+  padding-bottom: 10rem;
+}
+
+.pb-44{
+  padding-bottom: 11rem;
+}
+
+.pb-48{
+  padding-bottom: 12rem;
 }
 
 .text-left{
@@ -2673,9 +2691,24 @@ button:disabled{
     background-position: 750px, 780px 250px, 610px 610px;
   }
 
-  .xl\:py-\[11px\]{
-    padding-top: 11px;
-    padding-bottom: 11px;
+  .xl\:bg-\[position\:_750px\2c _790px_250px\2c _610px_610px\]{
+    background-position: 750px, 790px 250px, 610px 610px;
+  }
+
+  .xl\:bg-\[position\:_750px\2c _810px_250px\2c _610px_610px\]{
+    background-position: 750px, 810px 250px, 610px 610px;
+  }
+
+  .xl\:bg-\[position\:_750px\2c _790px_280px\2c _610px_610px\]{
+    background-position: 750px, 790px 280px, 610px 610px;
+  }
+
+  .xl\:bg-\[position\:_750px\2c _780px_310px\2c _610px_610px\]{
+    background-position: 750px, 780px 310px, 610px 610px;
+  }
+
+  .xl\:bg-\[position\:_750px\2c _760px_300px\2c _610px_610px\]{
+    background-position: 750px, 760px 300px, 610px 610px;
   }
 
   .xl\:px-\[80px\]{
@@ -2688,12 +2721,13 @@ button:disabled{
     padding-bottom: 2.5rem;
   }
 
-  .xl\:pl-2{
-    padding-left: 0.5rem;
+  .xl\:py-\[11px\]{
+    padding-top: 11px;
+    padding-bottom: 11px;
   }
 
-  .xl\:pt-9{
-    padding-top: 2.25rem;
+  .xl\:pl-2{
+    padding-left: 0.5rem;
   }
 
   .xl\:pt-8{
@@ -2710,12 +2744,12 @@ button:disabled{
     right: 318px;
   }
 
-  .\32xl\:gap-5{
-    gap: 1.25rem;
-  }
-
   .\32xl\:gap-10{
     gap: 2.5rem;
+  }
+
+  .\32xl\:gap-5{
+    gap: 1.25rem;
   }
 
   .\32xl\:bg-\[position\:_40px_345px\2c _left\2c _left\2c _1310px_250px\]{
@@ -2730,9 +2764,12 @@ button:disabled{
     background-position: right, 950px 250px, 770px 610px;
   }
 
-  .\32xl\:py-6{
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+  .\32xl\:bg-\[position\:_right\2c _970px_250px\2c _770px_610px\]{
+    background-position: right, 970px 250px, 770px 610px;
+  }
+
+  .\32xl\:bg-\[position\:_right\2c _990px_250px\2c _770px_610px\]{
+    background-position: right, 990px 250px, 770px 610px;
   }
 
   .\32xl\:px-\[140px\]{
@@ -2743,6 +2780,11 @@ button:disabled{
   .\32xl\:py-14{
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
+  }
+
+  .\32xl\:py-6{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 
   .\32xl\:pl-9{
