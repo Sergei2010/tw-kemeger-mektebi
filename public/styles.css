@@ -2659,16 +2659,16 @@ button:disabled{
     right: 150px;
   }
 
-  .xl\:gap-3{
-    gap: 0.75rem;
-  }
-
   .xl\:gap-4{
     gap: 1rem;
   }
 
   .xl\:gap-5{
     gap: 1.25rem;
+  }
+
+  .xl\:gap-\[14px\]{
+    gap: 14px;
   }
 
   .xl\:bg-\[position\:_180px_50px\2c _165px_37px\2c _950px_310px\2c _940px_299px\]{
