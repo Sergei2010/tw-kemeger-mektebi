@@ -1278,10 +1278,6 @@ input:checked + .toggle-bg{
   height: 1.5rem;
 }
 
-.h-64{
-  height: 16rem;
-}
-
 .h-72{
   height: 18rem;
 }
@@ -1769,8 +1765,8 @@ input:checked + .toggle-bg{
   background-image: url('../assets/images/bg-2-7-hero.png');
 }
 
-.bg-\[url\(\'\.\.\/assets\/images\/bg-3-about\.svg\'\)\2c _url\(\'\.\.\/assets\/images\/bg-4-about\.svg\'\)\]{
-  background-image: url('../assets/images/bg-3-about.svg'), url('../assets/images/bg-4-about.svg');
+.bg-\[url\(\'\.\.\/assets\/images\/bg-2-about\.svg\'\)\2c _url\(\'\.\.\/assets\/images\/bg-4-about\.svg\'\)\]{
+  background-image: url('../assets/images/bg-2-about.svg'), url('../assets/images/bg-4-about.svg');
 }
 
 .bg-\[url\(\'\.\.\/assets\/images\/bg-3-sertificates\.svg\'\)\2c _url\(\'\.\.\/assets\/images\/bg-2-sertificates\.svg\'\)\2c url\(\'\.\.\/assets\/images\/bg-1-sertificates\.svg\'\)\2c _url\(\'\.\.\/assets\/images\/bg-4-sertificates\.svg\'\)\]{
@@ -1837,10 +1833,6 @@ input:checked + .toggle-bg{
   background-image: url('../assets/images/img1-hero.png'), url('../assets/images/bg-3-1-hero.png'), url('../assets/images/bg-6-3-hero.svg');
 }
 
-.bg-\[url\(\'\.\.\/assets\/images\/bg-2-about\.svg\'\)\2c _url\(\'\.\.\/assets\/images\/bg-4-about\.svg\'\)\]{
-  background-image: url('../assets/images/bg-2-about.svg'), url('../assets/images/bg-4-about.svg');
-}
-
 .bg-\[length\:_auto\2c _auto\2c _auto\2c _auto\]{
   background-size: auto, auto, auto, auto;
 }
@@ -1885,10 +1877,6 @@ input:checked + .toggle-bg{
   background-position: 80px 130px, center 60px;
 }
 
-.bg-\[position\:_left_top\2c _80\%_35\%\]{
-  background-position: left top, 80% 35%;
-}
-
 .bg-center{
   background-position: center;
 }
@@ -1899,14 +1887,6 @@ input:checked + .toggle-bg{
 
 .bg-right-bottom{
   background-position: right bottom;
-}
-
-.bg-\[position\:_left_top\2c _50\%_50\%\]{
-  background-position: left top, 50% 50%;
-}
-
-.bg-\[position\:_left_top\2c _right\]{
-  background-position: left top, right;
 }
 
 .bg-no-repeat{
@@ -2052,8 +2032,8 @@ input:checked + .toggle-bg{
   padding-left: 2.5rem;
 }
 
-.pl-20{
-  padding-left: 5rem;
+.pl-6{
+  padding-left: 1.5rem;
 }
 
 .pl-8{
@@ -2066,10 +2046,6 @@ input:checked + .toggle-bg{
 
 .pl-\[259px\]{
   padding-left: 259px;
-}
-
-.pr-20{
-  padding-right: 5rem;
 }
 
 .pr-8{
@@ -2122,10 +2098,6 @@ input:checked + .toggle-bg{
 
 .pt-\[68px\]{
   padding-top: 68px;
-}
-
-.pl-6{
-  padding-left: 1.5rem;
 }
 
 .text-left{
@@ -2652,30 +2624,6 @@ button:disabled{
     gap: 1.25rem;
   }
 
-  .xl\:bg-\[length\:_80\%_100\%\2c _auto\]{
-    background-size: 80% 100%, auto;
-  }
-
-  .xl\:bg-\[length\:_auto\2c _85\%_95\%\]{
-    background-size: auto, 85% 95%;
-  }
-
-  .xl\:bg-\[length\:_auto\2c _80\%_80\%\]{
-    background-size: auto, 80% 80%;
-  }
-
-  .xl\:bg-\[length\:_auto\2c _90\%_90\%\]{
-    background-size: auto, 90% 90%;
-  }
-
-  .xl\:bg-\[length\:_auto\2c _100\%_100\%\]{
-    background-size: auto, 100% 100%;
-  }
-
-  .xl\:bg-\[length\:_auto\2c _100\%_110\%\]{
-    background-size: auto, 100% 110%;
-  }
-
   .xl\:bg-\[length\:_auto\2c _auto\]{
     background-size: auto, auto;
   }
@@ -2688,56 +2636,20 @@ button:disabled{
     background-position: 40px 345px, left, left, 1070px 250px;
   }
 
-  .xl\:bg-\[position\:_52px_220px\2c _850px_132px\]{
-    background-position: 52px 220px, 850px 132px;
+  .xl\:bg-\[position\:_50\%_30\%\2c _right_bottom\]{
+    background-position: 50% 30%, right bottom;
   }
 
-  .xl\:bg-\[position\:_60\%_50\%\2c _right_bottom\]{
-    background-position: 60% 50%, right bottom;
+  .xl\:bg-\[position\:_52px_220px\2c _850px_132px\]{
+    background-position: 52px 220px, 850px 132px;
   }
 
   .xl\:bg-\[position\:_750px\2c _760px_300px\2c _610px_610px\]{
     background-position: 750px, 760px 300px, 610px 610px;
   }
 
-  .xl\:bg-\[position\:_left_top\2c _right\]{
-    background-position: left top, right;
-  }
-
-  .xl\:bg-\[position\:_left_top\2c _50\%_50\%\]{
-    background-position: left top, 50% 50%;
-  }
-
-  .xl\:bg-\[position\:_left_top\2c _100\%_50\%\]{
-    background-position: left top, 100% 50%;
-  }
-
-  .xl\:bg-\[position\:_left_top\2c _100\%_30\%\]{
-    background-position: left top, 100% 30%;
-  }
-
-  .xl\:bg-\[position\:_left_top\2c _100\%_25\%\]{
-    background-position: left top, 100% 25%;
-  }
-
-  .xl\:bg-\[position\:_left_top\2c _100\%_22\%\]{
-    background-position: left top, 100% 22%;
-  }
-
-  .xl\:bg-\[position\:_left_top\2c _100\%_20\%\]{
-    background-position: left top, 100% 20%;
-  }
-
   .xl\:bg-\[position\:_left_top\2c _100\%_40\%\]{
     background-position: left top, 100% 40%;
-  }
-
-  .xl\:bg-\[position\:_50\%_50\%\2c _right_bottom\]{
-    background-position: 50% 50%, right bottom;
-  }
-
-  .xl\:bg-\[position\:_50\%_30\%\2c _right_bottom\]{
-    background-position: 50% 30%, right bottom;
   }
 
   .xl\:px-\[80px\]{
@@ -2763,16 +2675,16 @@ button:disabled{
     padding-right: 2.5rem;
   }
 
+  .xl\:pr-16{
+    padding-right: 4rem;
+  }
+
   .xl\:pt-14{
     padding-top: 3.5rem;
   }
 
   .xl\:pt-8{
     padding-top: 2rem;
-  }
-
-  .xl\:pr-16{
-    padding-right: 4rem;
   }
 
   .xl\:text-4xl{
@@ -2815,34 +2727,6 @@ button:disabled{
     gap: 2.5rem;
   }
 
-  .\32xl\:bg-\[length\:_auto\2c _80\%_70\%\]{
-    background-size: auto, 80% 70%;
-  }
-
-  .\32xl\:bg-\[length\:_auto\2c _auto\]{
-    background-size: auto, auto;
-  }
-
-  .\32xl\:bg-\[length\:_auto\2c _75\%_70\%\]{
-    background-size: auto, 75% 70%;
-  }
-
-  .\32xl\:bg-\[length\:_auto\2c _100\%_100\%\]{
-    background-size: auto, 100% 100%;
-  }
-
-  .\32xl\:bg-\[length\:_auto\2c _contain\]{
-    background-size: auto, contain;
-  }
-
-  .\32xl\:bg-\[length\:_contain\2c _auto\]{
-    background-size: contain, auto;
-  }
-
-  .\32xl\:bg-\[length\:_100\%_100\%\2c _auto\]{
-    background-size: 100% 100%, auto;
-  }
-
   .\32xl\:bg-\[length\:_80\%_80\%\2c _auto\]{
     background-size: 80% 80%, auto;
   }
@@ -2859,40 +2743,20 @@ button:disabled{
     background-position: 40px 345px, left, left, 1310px 250px;
   }
 
-  .\32xl\:bg-\[position\:_50\%_30\%\2c _right_bottom\]{
-    background-position: 50% 30%, right bottom;
+  .\32xl\:bg-\[position\:_50\%_20\%\2c _right_bottom\]{
+    background-position: 50% 20%, right bottom;
   }
 
   .\32xl\:bg-\[position\:_52px_220px\2c _1065px_106px\]{
     background-position: 52px 220px, 1065px 106px;
   }
 
-  .\32xl\:bg-\[position\:_right\2c _950px_250px\2c _770px_610px\]{
-    background-position: right, 950px 250px, 770px 610px;
-  }
-
-  .\32xl\:bg-\[position\:_50\%_50\%\2c _right_bottom\]{
-    background-position: 50% 50%, right bottom;
-  }
-
-  .\32xl\:bg-\[position\:_contain\2c _right_bottom\]{
-    background-position: contain, right bottom;
-  }
-
-  .\32xl\:bg-\[position\:_left\2c _right_bottom\]{
-    background-position: left, right bottom;
-  }
-
-  .\32xl\:bg-\[position\:_50\%_40\%\2c _right_bottom\]{
-    background-position: 50% 40%, right bottom;
-  }
-
-  .\32xl\:bg-\[position\:_50\%_20\%\2c _right_bottom\]{
-    background-position: 50% 20%, right bottom;
-  }
-
   .\32xl\:bg-\[position\:_left_top\2c _right\]{
     background-position: left top, right;
+  }
+
+  .\32xl\:bg-\[position\:_right\2c _950px_250px\2c _770px_610px\]{
+    background-position: right, 950px 250px, 770px 610px;
   }
 
   .\32xl\:px-\[140px\]{
@@ -2918,16 +2782,16 @@ button:disabled{
     padding-right: 3.5rem;
   }
 
+  .\32xl\:pr-20{
+    padding-right: 5rem;
+  }
+
   .\32xl\:pt-11{
     padding-top: 2.75rem;
   }
 
   .\32xl\:pt-8{
     padding-top: 2rem;
-  }
-
-  .\32xl\:pr-20{
-    padding-right: 5rem;
   }
 
   .\32xl\:text-2xl{
