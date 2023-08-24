@@ -1206,6 +1206,10 @@ input:checked + .toggle-bg{
   margin-left: auto;
 }
 
+.mr-\[30px\]{
+  margin-right: 30px;
+}
+
 .mt-2{
   margin-top: 0.5rem;
 }
@@ -1310,10 +1314,6 @@ input:checked + .toggle-bg{
   height: 858px;
 }
 
-.h-\[88px\]{
-  height: 88px;
-}
-
 .h-\[calc\(100\%-1rem\)\]{
   height: calc(100% - 1rem);
 }
@@ -1363,10 +1363,6 @@ input:checked + .toggle-bg{
   width: 1rem;
 }
 
-.w-4\/5{
-  width: 80%;
-}
-
 .w-40{
   width: 10rem;
 }
@@ -1381,10 +1377,6 @@ input:checked + .toggle-bg{
 
 .w-8{
   width: 2rem;
-}
-
-.w-\[102px\]{
-  width: 102px;
 }
 
 .w-\[120px\]{
@@ -1549,10 +1541,6 @@ input:checked + .toggle-bg{
   gap: 0.25rem;
 }
 
-.gap-10{
-  gap: 2.5rem;
-}
-
 .gap-2{
   gap: 0.5rem;
 }
@@ -1565,10 +1553,6 @@ input:checked + .toggle-bg{
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.place-self-stretch{
-  place-self: stretch;
 }
 
 .self-end{
@@ -1785,16 +1769,16 @@ input:checked + .toggle-bg{
   background-image: url('../assets/images/bg-2-7-hero.png');
 }
 
+.bg-\[url\(\'\.\.\/assets\/images\/bg-3-about\.svg\'\)\2c _url\(\'\.\.\/assets\/images\/bg-4-about\.svg\'\)\]{
+  background-image: url('../assets/images/bg-3-about.svg'), url('../assets/images/bg-4-about.svg');
+}
+
 .bg-\[url\(\'\.\.\/assets\/images\/bg-3-sertificates\.svg\'\)\2c _url\(\'\.\.\/assets\/images\/bg-2-sertificates\.svg\'\)\2c url\(\'\.\.\/assets\/images\/bg-1-sertificates\.svg\'\)\2c _url\(\'\.\.\/assets\/images\/bg-4-sertificates\.svg\'\)\]{
   background-image: url('../assets/images/bg-3-sertificates.svg'), url('../assets/images/bg-2-sertificates.svg'),url('../assets/images/bg-1-sertificates.svg'), url('../assets/images/bg-4-sertificates.svg');
 }
 
 .bg-\[url\(\'\.\.\/assets\/images\/bg-4-1-hero\.png\'\)\2c _url\(\'\.\.\/assets\/images\/bg-5-1-hero\.png\'\)\]{
   background-image: url('../assets/images/bg-4-1-hero.png'), url('../assets/images/bg-5-1-hero.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/images\/bg-4-about\.svg\'\)\2c _url\(\'\.\.\/assets\/images\/bg-3-about\.svg\'\)\]{
-  background-image: url('../assets/images/bg-4-about.svg'), url('../assets/images/bg-3-about.svg');
 }
 
 .bg-\[url\(\'\.\.\/assets\/images\/bg-5-about\.svg\'\)\]{
@@ -1853,8 +1837,8 @@ input:checked + .toggle-bg{
   background-image: url('../assets/images/img1-hero.png'), url('../assets/images/bg-3-1-hero.png'), url('../assets/images/bg-6-3-hero.svg');
 }
 
-.bg-\[length\:_auto\2c _560px\]{
-  background-size: auto, 560px;
+.bg-\[url\(\'\.\.\/assets\/images\/bg-2-about\.svg\'\)\2c _url\(\'\.\.\/assets\/images\/bg-4-about\.svg\'\)\]{
+  background-image: url('../assets/images/bg-2-about.svg'), url('../assets/images/bg-4-about.svg');
 }
 
 .bg-\[length\:_auto\2c _auto\2c _auto\2c _auto\]{
@@ -1901,8 +1885,8 @@ input:checked + .toggle-bg{
   background-position: 80px 130px, center 60px;
 }
 
-.bg-\[position\:_left_top\2c _right_bottom\]{
-  background-position: left top, right bottom;
+.bg-\[position\:_left_top\2c _80\%_35\%\]{
+  background-position: left top, 80% 35%;
 }
 
 .bg-center{
@@ -1915,6 +1899,14 @@ input:checked + .toggle-bg{
 
 .bg-right-bottom{
   background-position: right bottom;
+}
+
+.bg-\[position\:_left_top\2c _50\%_50\%\]{
+  background-position: left top, 50% 50%;
+}
+
+.bg-\[position\:_left_top\2c _right\]{
+  background-position: left top, right;
 }
 
 .bg-no-repeat{
@@ -1945,11 +1937,6 @@ input:checked + .toggle-bg{
 
 .p-4{
   padding: 1rem;
-}
-
-.px-1{
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
 }
 
 .px-11{
@@ -2065,20 +2052,12 @@ input:checked + .toggle-bg{
   padding-left: 2.5rem;
 }
 
-.pl-14{
-  padding-left: 3.5rem;
-}
-
-.pl-5{
-  padding-left: 1.25rem;
+.pl-20{
+  padding-left: 5rem;
 }
 
 .pl-8{
   padding-left: 2rem;
-}
-
-.pl-\[100px\]{
-  padding-left: 100px;
 }
 
 .pl-\[140px\]{
@@ -2089,16 +2068,12 @@ input:checked + .toggle-bg{
   padding-left: 259px;
 }
 
-.pr-10{
-  padding-right: 2.5rem;
+.pr-20{
+  padding-right: 5rem;
 }
 
 .pr-8{
   padding-right: 2rem;
-}
-
-.pr-\[120px\]{
-  padding-right: 120px;
 }
 
 .pr-\[284px\]{
@@ -2147,6 +2122,10 @@ input:checked + .toggle-bg{
 
 .pt-\[68px\]{
   padding-top: 68px;
+}
+
+.pl-6{
+  padding-left: 1.5rem;
 }
 
 .text-left{
@@ -2453,15 +2432,13 @@ input:checked + .toggle-bg{
 
 .b-carousel__wrap{
   display: flex;
-  gap: 1.25rem;
   transition-duration: 75ms;
   will-change: transform;
 }
 
 .b-carousel__item{
-  width: 31.8%;
   flex-shrink: 0;
-  flex-grow: 0;
+  flex-basis: calc(100% / 3 - 20px);
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -2477,7 +2454,7 @@ table {
   border-spacing: 0;
 }
 
-table td {
+table td, th {
   padding: 0;
 }
 
@@ -2651,24 +2628,56 @@ button:disabled{
 }
 
 @media (min-width: 1280px){
-  .xl\:left-\[150px\]{
-    left: 150px;
+  .xl\:left-\[120px\]{
+    left: 120px;
   }
 
-  .xl\:right-\[150px\]{
-    right: 150px;
+  .xl\:right-\[120px\]{
+    right: 120px;
   }
 
-  .xl\:gap-4{
-    gap: 1rem;
+  .xl\:h-\[80px\]{
+    height: 80px;
+  }
+
+  .xl\:w-4\/5{
+    width: 80%;
+  }
+
+  .xl\:w-\[90px\]{
+    width: 90px;
   }
 
   .xl\:gap-5{
     gap: 1.25rem;
   }
 
-  .xl\:gap-\[15px\]{
-    gap: 15px;
+  .xl\:bg-\[length\:_80\%_100\%\2c _auto\]{
+    background-size: 80% 100%, auto;
+  }
+
+  .xl\:bg-\[length\:_auto\2c _85\%_95\%\]{
+    background-size: auto, 85% 95%;
+  }
+
+  .xl\:bg-\[length\:_auto\2c _80\%_80\%\]{
+    background-size: auto, 80% 80%;
+  }
+
+  .xl\:bg-\[length\:_auto\2c _90\%_90\%\]{
+    background-size: auto, 90% 90%;
+  }
+
+  .xl\:bg-\[length\:_auto\2c _100\%_100\%\]{
+    background-size: auto, 100% 100%;
+  }
+
+  .xl\:bg-\[length\:_auto\2c _100\%_110\%\]{
+    background-size: auto, 100% 110%;
+  }
+
+  .xl\:bg-\[length\:_auto\2c _auto\]{
+    background-size: auto, auto;
   }
 
   .xl\:bg-\[position\:_180px_50px\2c _165px_37px\2c _950px_310px\2c _940px_299px\]{
@@ -2683,8 +2692,52 @@ button:disabled{
     background-position: 52px 220px, 850px 132px;
   }
 
+  .xl\:bg-\[position\:_60\%_50\%\2c _right_bottom\]{
+    background-position: 60% 50%, right bottom;
+  }
+
   .xl\:bg-\[position\:_750px\2c _760px_300px\2c _610px_610px\]{
     background-position: 750px, 760px 300px, 610px 610px;
+  }
+
+  .xl\:bg-\[position\:_left_top\2c _right\]{
+    background-position: left top, right;
+  }
+
+  .xl\:bg-\[position\:_left_top\2c _50\%_50\%\]{
+    background-position: left top, 50% 50%;
+  }
+
+  .xl\:bg-\[position\:_left_top\2c _100\%_50\%\]{
+    background-position: left top, 100% 50%;
+  }
+
+  .xl\:bg-\[position\:_left_top\2c _100\%_30\%\]{
+    background-position: left top, 100% 30%;
+  }
+
+  .xl\:bg-\[position\:_left_top\2c _100\%_25\%\]{
+    background-position: left top, 100% 25%;
+  }
+
+  .xl\:bg-\[position\:_left_top\2c _100\%_22\%\]{
+    background-position: left top, 100% 22%;
+  }
+
+  .xl\:bg-\[position\:_left_top\2c _100\%_20\%\]{
+    background-position: left top, 100% 20%;
+  }
+
+  .xl\:bg-\[position\:_left_top\2c _100\%_40\%\]{
+    background-position: left top, 100% 40%;
+  }
+
+  .xl\:bg-\[position\:_50\%_50\%\2c _right_bottom\]{
+    background-position: 50% 50%, right bottom;
+  }
+
+  .xl\:bg-\[position\:_50\%_30\%\2c _right_bottom\]{
+    background-position: 50% 30%, right bottom;
   }
 
   .xl\:px-\[80px\]{
@@ -2697,35 +2750,105 @@ button:disabled{
     padding-bottom: 2.5rem;
   }
 
-  .xl\:py-6{
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+  .xl\:py-3{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
   }
 
   .xl\:pl-2{
     padding-left: 0.5rem;
   }
 
+  .xl\:pr-10{
+    padding-right: 2.5rem;
+  }
+
+  .xl\:pt-14{
+    padding-top: 3.5rem;
+  }
+
   .xl\:pt-8{
     padding-top: 2rem;
+  }
+
+  .xl\:pr-16{
+    padding-right: 4rem;
+  }
+
+  .xl\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .xl\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .xl\:font-semibold{
+    font-weight: 600;
   }
 }
 
 @media (min-width: 1536px){
-  .\32xl\:left-\[318px\]{
-    left: 318px;
+  .\32xl\:left-\[310px\]{
+    left: 310px;
   }
 
-  .\32xl\:right-\[318px\]{
-    right: 318px;
+  .\32xl\:right-\[310px\]{
+    right: 310px;
+  }
+
+  .\32xl\:h-\[88px\]{
+    height: 88px;
+  }
+
+  .\32xl\:w-4\/5{
+    width: 80%;
+  }
+
+  .\32xl\:w-\[102px\]{
+    width: 102px;
   }
 
   .\32xl\:gap-10{
     gap: 2.5rem;
   }
 
-  .\32xl\:gap-5{
-    gap: 1.25rem;
+  .\32xl\:bg-\[length\:_auto\2c _80\%_70\%\]{
+    background-size: auto, 80% 70%;
+  }
+
+  .\32xl\:bg-\[length\:_auto\2c _auto\]{
+    background-size: auto, auto;
+  }
+
+  .\32xl\:bg-\[length\:_auto\2c _75\%_70\%\]{
+    background-size: auto, 75% 70%;
+  }
+
+  .\32xl\:bg-\[length\:_auto\2c _100\%_100\%\]{
+    background-size: auto, 100% 100%;
+  }
+
+  .\32xl\:bg-\[length\:_auto\2c _contain\]{
+    background-size: auto, contain;
+  }
+
+  .\32xl\:bg-\[length\:_contain\2c _auto\]{
+    background-size: contain, auto;
+  }
+
+  .\32xl\:bg-\[length\:_100\%_100\%\2c _auto\]{
+    background-size: 100% 100%, auto;
+  }
+
+  .\32xl\:bg-\[length\:_80\%_80\%\2c _auto\]{
+    background-size: 80% 80%, auto;
+  }
+
+  .\32xl\:bg-\[length\:_auto\2c _80\%_80\%\]{
+    background-size: auto, 80% 80%;
   }
 
   .\32xl\:bg-\[position\:_270px_51px\2c _253px_38px\2c _1060px_293px\2c _1050px_280px\]{
@@ -2736,12 +2859,40 @@ button:disabled{
     background-position: 40px 345px, left, left, 1310px 250px;
   }
 
-  .\32xl\:bg-\[position\:_52px_220px\2c _1045px_106px\]{
-    background-position: 52px 220px, 1045px 106px;
+  .\32xl\:bg-\[position\:_50\%_30\%\2c _right_bottom\]{
+    background-position: 50% 30%, right bottom;
+  }
+
+  .\32xl\:bg-\[position\:_52px_220px\2c _1065px_106px\]{
+    background-position: 52px 220px, 1065px 106px;
   }
 
   .\32xl\:bg-\[position\:_right\2c _950px_250px\2c _770px_610px\]{
     background-position: right, 950px 250px, 770px 610px;
+  }
+
+  .\32xl\:bg-\[position\:_50\%_50\%\2c _right_bottom\]{
+    background-position: 50% 50%, right bottom;
+  }
+
+  .\32xl\:bg-\[position\:_contain\2c _right_bottom\]{
+    background-position: contain, right bottom;
+  }
+
+  .\32xl\:bg-\[position\:_left\2c _right_bottom\]{
+    background-position: left, right bottom;
+  }
+
+  .\32xl\:bg-\[position\:_50\%_40\%\2c _right_bottom\]{
+    background-position: 50% 40%, right bottom;
+  }
+
+  .\32xl\:bg-\[position\:_50\%_20\%\2c _right_bottom\]{
+    background-position: 50% 20%, right bottom;
+  }
+
+  .\32xl\:bg-\[position\:_left_top\2c _right\]{
+    background-position: left top, right;
   }
 
   .\32xl\:px-\[140px\]{
@@ -2763,8 +2914,25 @@ button:disabled{
     padding-left: 2.25rem;
   }
 
+  .\32xl\:pr-14{
+    padding-right: 3.5rem;
+  }
+
   .\32xl\:pt-11{
     padding-top: 2.75rem;
+  }
+
+  .\32xl\:pt-8{
+    padding-top: 2rem;
+  }
+
+  .\32xl\:pr-20{
+    padding-right: 5rem;
+  }
+
+  .\32xl\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 

@@ -62,15 +62,18 @@
       >
         <!-- NAV -->
         <section
-          class="px-2 pb-2 fixed top-[0px] 2xl:left-[318px] xl:left-[150px] 2xl:right-[318px] xl:right-[150px] bg-white opacity-80 rounded-sm shadow-xl flex justify-between z-10"
+          class="px-2 pb-2 fixed top-[0px] 2xl:left-[310px] xl:left-[120px] 2xl:right-[310px] xl:right-[120px] bg-white opacity-80 rounded-sm shadow-xl flex justify-between z-10"
         >
           <div class="link-on-hover">
             <a href="#"
-              ><img src="assets/images/logo.svg" alt="logo img" class="w-[102px] h-[88px]"
+              ><img
+                src="assets/images/logo.svg"
+                alt="logo img"
+                class="xl:w-[90px] xl:h-[80px] 2xl:w-[102px] 2xl:h-[88px]"
             /></a>
           </div>
-          <div class="flex justify-between w-4/5">
-            <ul class="text-16-500 nowrrap flex items-center gap-10">
+          <div class="flex justify-between xl:w-4/5 2xl:w-4/5 gap-2">
+            <ul class="text-16-500 nowrrap flex items-center xl:gap-5 2xl:gap-10">
               <li class="link-on-hover shrink-0"><a href="#about">О нас</a></li>
               <li class="link-on-hover"><a href="#catalogs">Каталог</a></li>
               <li class="link-on-hover"><a href="#sertificates">Сертификаты</a></li>
@@ -128,8 +131,9 @@
         <!-- ABOUT -->
         <section id="about" class="scroll-mt-24 snap-start">
           <div class="flex justify-between items-center mb-28">
+            <!-- ABOUT-1 -->
             <p
-              class="w-1/2 h-72 text-24-400 pl-14 pr-10 pt-14 bg-[url('../assets/images/bg-1-about.svg'),_url('../assets/images/bg-2-about.svg')] bg-[position:_left_top,_right_bottom] bg-[length:_auto,_560px] bg-no-repeat"
+              class="w-1/2 h-72 pl-10 xl:pr-10 2xl:pr-14 pt-14 xl:text-lg 2xl:text-2xl bg-[url('../assets/images/bg-1-about.svg'),_url('../assets/images/bg-2-about.svg')] xl:bg-[position:_left_top,_100%_40%] 2xl:bg-[position:_left_top,_right] xl:bg-[length:_auto,_auto] 2xl:bg-[length:_auto,_80%_80%] bg-no-repeat"
             >
               В нашем центре работают профессиональные педагоги любящие детей и преданные своему
               делу. Мы помогаем детям совершенствовать свои интеллекуальные способности чтобы они
@@ -147,8 +151,9 @@
             >
               <img src="./assets/images/img-2-about.png" alt="image2" class="w-[488px] h-[343px]" />
             </p>
+            <!-- ABOUT-2 -->
             <p
-              class="w-1/2 h-64 text-24-400 pl-14 pr-10 pt-14 bg-[url('../assets/images/bg-4-about.svg'),_url('../assets/images/bg-3-about.svg')] bg-[position:_left_top,_right_bottom] bg-[length:_auto,_560px] bg-no-repeat"
+              class="w-1/2 h-72 pl-6 xl:pr-16 2xl:pr-20 xl:pt-14 2xl:pt-8 xl:text-lg 2xl:text-2xl bg-[url('../assets/images/bg-2-about.svg'),_url('../assets/images/bg-4-about.svg')] xl:bg-[position:_50%_30%,_right_bottom] 2xl:bg-[position:_50%_20%,_right_bottom] xl:bg-[length:_auto,_auto] 2xl:bg-[length:_80%_80%,_auto] bg-no-repeat"
             >
               Наши ученики показывают результат уже с первого месяца работы, мы поддерживаем в нашем
               центре теплую и дружескую атмосферу Побывав у нас детям обязательно захочется
@@ -253,7 +258,7 @@
       <!-- CONTAINER WITH CAROUSEL-1 FOR CATALOGS -->
       <section
         id="catalogs"
-        class="container mx-auto pt-[68px] pl-[100px] pr-[120px] bg-[#F6FAFF] relative bg-[url('../assets/icons/bg-1-catalog.svg'),_url('../assets/icons/bg-2-catalog.svg')] 2xl:bg-[position:_52px_220px,_1045px_106px] xl:bg-[position:_52px_220px,_850px_132px] bg-[length:_auto,_auto] bg-no-repeat"
+        class="container mx-auto pt-[68px] px-[120px] bg-[#F6FAFF] relative bg-[url('../assets/icons/bg-1-catalog.svg'),_url('../assets/icons/bg-2-catalog.svg')] 2xl:bg-[position:_52px_220px,_1065px_106px] xl:bg-[position:_52px_220px,_850px_132px] bg-[length:_auto,_auto] bg-no-repeat"
       >
         <h2 class="text-48-600 text-center mb-[68px]">Каталог</h2>
         <!-- CAROUSEL FOR CATALOGS -->
@@ -272,18 +277,18 @@
             >
               <img src="./assets/icons/icon-2-catalog.svg" alt="right arrow" />
             </button>
-            <div class="pl-5 pb-20 b-carousel__wrap 2xl:gap-5 xl:gap-[15px] js-carousel__wrap-1">
+            <div class="pb-20 b-carousel__wrap js-carousel__wrap-1">
               <!-- CATALOG-1 -->
               <table
-                class="b-carousel__item card-shadow text-center text-20-400 bg-white rounded-[30px]"
+                class="b-carousel__item mr-[30px] card-shadow text-center xl:text-lg 2xl:text-20-400 bg-white rounded-[30px]"
               >
                 <tr>
-                  <th class="2xl:py-6 xl:py-6 text-20-700 text-white bg-blue-light uppercase">
+                  <th class="py-6 xl:text-lg 2xl:text-20-700 text-white bg-blue-light uppercase">
                     Подготовка к школе
                   </th>
                 </tr>
                 <tr>
-                  <td class="pt-14 pb-6 text-48-600">30 000 тг</td>
+                  <td class="pt-14 pb-6 xl:text-4xl xl:font-semibold 2xl:text-48-600">30 000 тг</td>
                 </tr>
                 <tr>
                   <td class="pb-2">4-6 лет</td>
@@ -336,15 +341,15 @@
               </table>
               <!-- CATALOG-2 -->
               <table
-                class="b-carousel__item card-shadow text-center text-20-400 bg-white rounded-[30px]"
+                class="b-carousel__item mr-[30px] card-shadow text-center xl:text-lg 2xl:text-20-400 bg-white rounded-[30px]"
               >
                 <tr>
-                  <th class="2xl:py-6 xl:py-6 text-20-700 text-white bg-violet uppercase">
+                  <th class="py-6 xl:text-lg 2xl:text-20-700 text-white bg-violet uppercase">
                     скорочтение
                   </th>
                 </tr>
                 <tr>
-                  <td class="pt-14 pb-6 text-48-600">27 000 тг</td>
+                  <td class="pt-14 pb-6 xl:text-4xl xl:font-semibold 2xl:text-48-600">27 000 тг</td>
                 </tr>
                 <tr>
                   <td class="pb-2">6-15 лет</td>
@@ -357,7 +362,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td class="pb-2 px-1 truncate">Увеличение скорости чтения</td>
+                  <td class="pb-2 truncate">Увеличение скорости чтения</td>
                 </tr>
                 <tr>
                   <td class="pb-2">Артикуляция</td>
@@ -395,15 +400,17 @@
               </table>
               <!-- CATALOG-3 -->
               <table
-                class="b-carousel__item card-shadow text-center text-20-400 bg-white rounded-[30px]"
+                class="b-carousel__item card-shadow text-center xl:text-lg 2xl:text-20-400 bg-white rounded-[30px]"
               >
                 <tr>
-                  <th class="py-6 text-20-700 truncate text-white uppercase bg-greenish">
+                  <th
+                    class="xl:py-3 2xl:py-6 xl:text-lg 2xl:text-20-700 text-white uppercase bg-greenish"
+                  >
                     ментальная арифметика
                   </th>
                 </tr>
                 <tr>
-                  <td class="pt-14 pb-6 text-48-600">20 000 тг</td>
+                  <td class="pt-14 pb-6 xl:text-4xl xl:font-semibold 2xl:text-48-600">20 000 тг</td>
                 </tr>
                 <tr>
                   <td class="pb-2 text-white">aaa</td>
@@ -456,15 +463,15 @@
               </table>
               <!-- CATALOG-4 -->
               <table
-                class="b-carousel__item card-shadow text-center text-20-400 bg-white rounded-[30px]"
+                class="b-carousel__item mr-[30px] card-shadow text-center xl:text-lg 2xl:text-20-400 bg-white rounded-[30px]"
               >
                 <tr>
-                  <th class="py-6 text-20-700 text-white bg-yellow-light uppercase">
+                  <th class="py-6 xl:text-lg 2xl:text-20-700 text-white bg-yellow-light uppercase">
                     Каллиграфия
                   </th>
                 </tr>
                 <tr>
-                  <td class="pt-14 pb-6 text-48-600">24 000 тг</td>
+                  <td class="pt-14 pb-6 xl:text-4xl xl:font-semibold 2xl:text-48-600">24 000 тг</td>
                 </tr>
                 <tr>
                   <td class="pb-2 text-white">aaa</td>
@@ -517,15 +524,15 @@
               </table>
               <!-- CATALOG-5 -->
               <table
-                class="b-carousel__item card-shadow text-center text-20-400 bg-white rounded-[30px]"
+                class="b-carousel__item mr-[30px] card-shadow text-center xl:text-lg 2xl:text-20-400 bg-white rounded-[30px]"
               >
                 <tr>
-                  <th class="py-6 text-20-700 text-white bg-red-light uppercase">
+                  <th class="py-6 xl:text-lg 2xl:text-20-700 text-white bg-red-light uppercase">
                     Английский язык
                   </th>
                 </tr>
                 <tr>
-                  <td class="pt-14 pb-6 text-48-600">18 000 тг</td>
+                  <td class="pt-14 pb-6 xl:text-4xl xl:font-semibold 2xl:text-48-600">18 000 тг</td>
                 </tr>
                 <tr>
                   <td class="pb-2 text-white">aaa</td>
@@ -578,17 +585,17 @@
               </table>
               <!-- CATALOG-6 -->
               <table
-                class="b-carousel__item card-shadow text-center text-20-400 bg-white rounded-[30px]"
+                class="b-carousel__item card-shadow text-center xl:text-lg 2xl:text-20-400 bg-white rounded-[30px]"
               >
                 <tr>
                   <th
-                    class="py-6 text-20-700 truncate text-20-700 text-white uppercase bg-yellow-dark"
+                    class="xl:py-3 2xl:py-6 xl:text-lg 2xl:text-20-700 text-white uppercase bg-yellow-dark"
                   >
                     Группа продленного дня
                   </th>
                 </tr>
                 <tr>
-                  <td class="pt-14 pb-6 text-48-600">35 000 тг</td>
+                  <td class="pt-14 pb-6 xl:text-4xl xl:font-semibold 2xl:text-48-600">35 000 тг</td>
                 </tr>
                 <tr>
                   <td class="pb-2 text-white">aaa</td>
@@ -672,10 +679,7 @@
         </section>
       </div>
       <!-- CONTAINER WITH CAROUSEL-2 FOR REVIEWS -->
-      <section
-        id="reviews"
-        class="container mx-auto pt-[68px] pl-[100px] pr-[120px] bg-white relative"
-      >
+      <section id="reviews" class="container mx-auto pt-[68px] px-[120px] bg-white relative">
         <h2 class="text-48-600 text-center mb-[68px]">Отзывы</h2>
         <!-- CAROUSEL FOR REVIEWS -->
         <div class="wrap">
@@ -693,10 +697,10 @@
             >
               <img src="./assets/icons/icon-2-catalog.svg" alt="right arrow" />
             </button>
-            <div class="pl-5 pb-20 b-carousel__wrap 2xl:gap-5 xl:gap-4 js-carousel__wrap-2">
+            <div class="pb-20 b-carousel__wrap js-carousel__wrap-2">
               <!-- REVIEW-1 -->
               <div
-                class="b-carousel__item 2xl:pl-9 xl:pl-2 pb-9 2xl:pt-11 xl:pt-8 border-4 rounded-3xl border-blue-light"
+                class="b-carousel__item mr-[30px] 2xl:pl-9 xl:pl-2 pb-9 2xl:pt-11 xl:pt-8 border-4 rounded-3xl border-blue-light"
               >
                 <div class="flex items-center gap-1 mb-4">
                   <p
@@ -711,7 +715,7 @@
               </div>
               <!-- REVIEW-2 -->
               <div
-                class="b-carousel__item place-self-stretch 2xl:pl-9 xl:pl-2 pb-9 2xl:pt-11 xl:pt-8 border-4 rounded-3xl border-blue-light"
+                class="b-carousel__item mr-[30px] 2xl:pl-9 xl:pl-2 pb-9 2xl:pt-11 xl:pt-8 border-4 rounded-3xl border-blue-light"
               >
                 <div class="flex items-center gap-1 mb-4">
                   <p
@@ -740,7 +744,7 @@
               </div>
               <!-- REVIEW-4 -->
               <div
-                class="b-carousel__item 2xl:pl-9 xl:pl-2 pb-9 2xl:pt-11 xl:pt-8 border-4 rounded-3xl border-blue-light"
+                class="b-carousel__item mr-[30px] 2xl:pl-9 xl:pl-2 pb-9 2xl:pt-11 xl:pt-8 border-4 rounded-3xl border-blue-light"
               >
                 <div class="flex items-center gap-1 mb-4">
                   <p
@@ -755,7 +759,7 @@
               </div>
               <!-- REVIEW-5 -->
               <div
-                class="b-carousel__item 2xl:pl-9 xl:pl-2 pb-9 2xl:pt-11 xl:pt-8 border-4 rounded-3xl border-blue-light"
+                class="b-carousel__item mr-[30px] 2xl:pl-9 xl:pl-2 pb-9 2xl:pt-11 xl:pt-8 border-4 rounded-3xl border-blue-light"
               >
                 <div class="flex items-center gap-1 mb-4">
                   <p
@@ -770,7 +774,7 @@
               </div>
               <!-- REVIEW-6 -->
               <div
-                class="b-carousel__item 2xl:pl-9 xl:pl-2 pb-9 2xl:pt-11 xl:pt-8 border-4 rounded-3xl border-blue-light"
+                class="b-carousel__item important 2xl:pl-9 xl:pl-2 pb-9 2xl:pt-11 xl:pt-8 border-4 rounded-3xl border-blue-light"
               >
                 <div class="flex items-center gap-1 mb-4">
                   <p
@@ -1020,14 +1024,18 @@
               </svg>
               <span class="sr-only">Close modal</span>
             </button>
-            <table class="w-full card-shadow text-center text-20-400 bg-white rounded-[30px]">
+            <table
+              class="w-full card-shadow text-center xl:text-lg 2xl:text-20-400 bg-white rounded-[30px]"
+            >
               <tr>
-                <th class="py-6 text-20-700 text-white bg-blue-light uppercase rounded-t-[30px]">
+                <th
+                  class="py-6 xl:text-lg 2xl:text-20-700 text-white bg-blue-light uppercase rounded-t-[30px]"
+                >
                   Подготовка к школе
                 </th>
               </tr>
               <tr>
-                <td class="pt-12 pb-6 text-48-600">30 000 тг</td>
+                <td class="pt-12 pb-6 xl:text-4xl xl:font-semibold 2xl:text-48-600">30 000 тг</td>
               </tr>
               <tr>
                 <td class="pb-2">4-6 лет</td>
@@ -1111,14 +1119,18 @@
               </svg>
               <span class="sr-only">Close modal</span>
             </button>
-            <table class="w-full card-shadow text-center text-20-400 bg-white rounded-[30px]">
+            <table
+              class="w-full card-shadow text-center xl:text-lg 2xl:text-20-400 bg-white rounded-[30px]"
+            >
               <tr>
-                <th class="py-6 text-20-700 text-white rounded-t-[30px] bg-violet uppercase">
+                <th
+                  class="py-6 xl:text-lg 2xl:text-20-700 text-white rounded-t-[30px] bg-violet uppercase"
+                >
                   скорочтение
                 </th>
               </tr>
               <tr>
-                <td class="pt-12 pb-6 text-48-600">27 000 тг</td>
+                <td class="pt-12 pb-6 xl:text-4xl xl:font-semibold 2xl:text-48-600">27 000 тг</td>
               </tr>
               <tr>
                 <td class="pb-2">6-15 лет</td>
@@ -1202,14 +1214,18 @@
               </svg>
               <span class="sr-only">Close modal</span>
             </button>
-            <table class="w-full card-shadow text-center text-20-400 bg-white rounded-[30px]">
+            <table
+              class="w-full card-shadow text-center xl:text-lg 2xl:text-20-400 bg-white rounded-[30px]"
+            >
               <tr>
-                <th class="py-6 text-20-700 text-white uppercase rounded-t-[30px] bg-greenish">
+                <th
+                  class="xl:py-3 2xl:py-6 xl:text-lg 2xl:text-20-700 text-white uppercase rounded-t-[30px] bg-greenish"
+                >
                   ментальная арифметика
                 </th>
               </tr>
               <tr>
-                <td class="pt-12 pb-12 text-48-600">20 000 тг</td>
+                <td class="pt-12 pb-12 xl:text-4xl xl:font-semibold 2xl:text-48-600">20 000 тг</td>
               </tr>
               <tr>
                 <td class="pb-12">2 занятия в неделю по 3 ч.</td>
@@ -1278,14 +1294,18 @@
               </svg>
               <span class="sr-only">Close modal</span>
             </button>
-            <table class="w-full card-shadow text-center text-20-400 bg-white rounded-[30px]">
+            <table
+              class="w-full card-shadow text-center xl:text-lg 2xl:text-20-400 bg-white rounded-[30px]"
+            >
               <tr>
-                <th class="py-6 text-20-700 text-white uppercase rounded-t-[30px] bg-yellow-light">
+                <th
+                  class="py-6 xl:text-lg 2xl:text-20-700 text-white uppercase rounded-t-[30px] bg-yellow-light"
+                >
                   Каллиграфия
                 </th>
               </tr>
               <tr>
-                <td class="pt-14 pb-12 text-48-600">24 000 тг</td>
+                <td class="pt-14 pb-12 xl:text-4xl xl:font-semibold 2xl:text-48-600">24 000 тг</td>
               </tr>
               <tr>
                 <td class="pb-12">3 занятия в неделю по 1 ч.</td>
@@ -1362,14 +1382,18 @@
               </svg>
               <span class="sr-only">Close modal</span>
             </button>
-            <table class="w-full card-shadow text-center text-20-400 bg-white rounded-[30px]">
+            <table
+              class="w-full card-shadow text-center xl:text-lg 2xl:text-20-400 bg-white rounded-[30px]"
+            >
               <tr>
-                <th class="py-6 text-20-700 text-white uppercase rounded-t-[30px] bg-red-light">
+                <th
+                  class="py-6 xl:text-lg 2xl:text-20-700 text-white uppercase rounded-t-[30px] bg-red-light"
+                >
                   Английский язык
                 </th>
               </tr>
               <tr>
-                <td class="pt-14 pb-6 text-48-600">18 000 тг</td>
+                <td class="pt-14 pb-6 xl:text-4xl xl:font-semibold 2xl:text-48-600">18 000 тг</td>
               </tr>
               <tr>
                 <td class="pb-10">2 занятия в неделю по 1,5 ч.</td>
@@ -1438,14 +1462,18 @@
               </svg>
               <span class="sr-only">Close modal</span>
             </button>
-            <table class="w-full card-shadow text-center text-20-400 bg-white rounded-[30px]">
+            <table
+              class="w-full card-shadow text-center xl:text-lg 2xl:text-20-400 bg-white rounded-[30px]"
+            >
               <tr>
-                <th class="py-6 text-20-700 text-white uppercase rounded-t-[30px] bg-yellow-dark">
+                <th
+                  class="xl:py-3 2xl:py-6 xl:text-lg 2xl:text-20-700 text-white uppercase rounded-t-[30px] bg-yellow-dark"
+                >
                   Группа продленного дня
                 </th>
               </tr>
               <tr>
-                <td class="pt-14 pb-6 text-48-600">35 000 тг</td>
+                <td class="pt-14 pb-6 xl:text-4xl xl:font-semibold 2xl:text-48-600">35 000 тг</td>
               </tr>
               <tr>
                 <td class="pb-10">
